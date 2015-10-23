@@ -1,0 +1,97 @@
+
+fuhuo.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 21
+  size: 345, 190
+  orig: 345, 190
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 1318, 2
+  size: 282, 251
+  orig: 282, 251
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 1496, 308
+  size: 330, 198
+  orig: 330, 198
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 1189, 286
+  size: 305, 220
+  orig: 305, 220
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 1571, 24
+  size: 282, 235
+  orig: 282, 235
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 1808, 25
+  size: 281, 220
+  orig: 281, 220
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 990, 49
+  size: 326, 218
+  orig: 326, 218
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 660, 41
+  size: 328, 223
+  orig: 328, 223
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 349, 17
+  size: 309, 241
+  orig: 309, 241
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 575, 266
+  size: 305, 240
+  orig: 305, 240
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 268, 260
+  size: 305, 246
+  orig: 305, 246
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 882, 269
+  size: 305, 237
+  orig: 305, 237
+  offset: 0, 0
+  index: -1
+9
+  rotate: true
+  xy: 2, 213
+  size: 293, 264
+  orig: 293, 264
+  offset: 0, 0
+  index: -1

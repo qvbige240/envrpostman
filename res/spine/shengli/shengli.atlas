@@ -1,0 +1,167 @@
+
+shengli.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hp_bgg1
+  rotate: false
+  xy: 568, 70
+  size: 287, 287
+  orig: 287, 287
+  offset: 0, 0
+  index: -1
+hp_biao1
+  rotate: false
+  xy: 290, 2
+  size: 120, 60
+  orig: 120, 60
+  offset: 0, 0
+  index: -1
+hp_biao2
+  rotate: true
+  xy: 1018, 369
+  size: 131, 72
+  orig: 131, 72
+  offset: 0, 0
+  index: -1
+hp_d
+  rotate: false
+  xy: 2, 171
+  size: 542, 152
+  orig: 542, 152
+  offset: 0, 0
+  index: -1
+hp_d1
+  rotate: false
+  xy: 2, 325
+  size: 564, 175
+  orig: 564, 175
+  offset: 0, 0
+  index: -1
+hp_gd
+  rotate: false
+  xy: 454, 30
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hp_gs
+  rotate: true
+  xy: 2, 33
+  size: 136, 286
+  orig: 136, 286
+  offset: 0, 0
+  index: -1
+hp_lt
+  rotate: false
+  xy: 943, 247
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+hp_sg4
+  rotate: false
+  xy: 568, 359
+  size: 448, 141
+  orig: 448, 141
+  offset: 0, 0
+  index: -1
+hp_x
+  rotate: false
+  xy: 2, 502
+  size: 1110, 8
+  orig: 1110, 8
+  offset: 0, 0
+  index: -1
+hp_xx1
+  rotate: false
+  xy: 484, 136
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+hp_xx2
+  rotate: false
+  xy: 943, 212
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+hp_xx3
+  rotate: false
+  xy: 943, 177
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+hp_xx4
+  rotate: false
+  xy: 857, 108
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+hp_xx5
+  rotate: false
+  xy: 943, 303
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+hp_xx6
+  rotate: false
+  xy: 425, 115
+  size: 57, 54
+  orig: 57, 54
+  offset: 0, 0
+  index: -1
+hp_xx7
+  rotate: false
+  xy: 425, 64
+  size: 56, 49
+  orig: 56, 49
+  offset: 0, 0
+  index: -1
+hp_xx8
+  rotate: false
+  xy: 412, 27
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+hp_xx9
+  rotate: false
+  xy: 857, 71
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+hp_xzg
+  rotate: false
+  xy: 857, 164
+  size: 84, 193
+  orig: 106, 193
+  offset: 10, 0
+  index: -1
+hp_xzs1
+  rotate: false
+  xy: 412, 2
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+hp_xzs2
+  rotate: false
+  xy: 546, 291
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+hp_xzst
+  rotate: false
+  xy: 290, 64
+  size: 133, 105
+  orig: 133, 105
+  offset: 0, 0
+  index: -1

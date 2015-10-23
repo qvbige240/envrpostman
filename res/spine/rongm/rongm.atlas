@@ -1,0 +1,76 @@
+
+rongm.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rongm_j1
+  rotate: false
+  xy: 394, 103
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+rongm_j2
+  rotate: true
+  xy: 115, 2
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: -1
+rongm_j3
+  rotate: true
+  xy: 210, 48
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+rongm_st
+  rotate: false
+  xy: 2, 24
+  size: 111, 102
+  orig: 111, 102
+  offset: 0, 0
+  index: -1
+rongm_st1
+  rotate: false
+  xy: 269, 100
+  size: 68, 26
+  orig: 68, 26
+  offset: 0, 0
+  index: -1
+rongm_st2
+  rotate: false
+  xy: 115, 42
+  size: 93, 39
+  orig: 93, 39
+  offset: 0, 0
+  index: -1
+rongm_tm
+  rotate: true
+  xy: 165, 2
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+rongm_yan
+  rotate: false
+  xy: 339, 101
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+rongm_yz
+  rotate: false
+  xy: 115, 83
+  size: 152, 43
+  orig: 152, 43
+  offset: 0, 0
+  index: -1
+rongm_zui
+  rotate: true
+  xy: 200, 2
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1

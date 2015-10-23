@@ -1,0 +1,41 @@
+
+daoju2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daoju1_fx
+  rotate: true
+  xy: 2, 2
+  size: 77, 92
+  orig: 77, 92
+  offset: 0, 0
+  index: -1
+daoju1_x1
+  rotate: false
+  xy: 178, 135
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+daoju1_x2
+  rotate: false
+  xy: 2, 81
+  size: 174, 164
+  orig: 174, 164
+  offset: 0, 0
+  index: -1
+daoju1_x3
+  rotate: false
+  xy: 290, 144
+  size: 96, 101
+  orig: 96, 101
+  offset: 0, 0
+  index: -1
+daoju1_yz
+  rotate: false
+  xy: 178, 90
+  size: 96, 43
+  orig: 96, 43
+  offset: 0, 0
+  index: -1

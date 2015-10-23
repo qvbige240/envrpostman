@@ -1,0 +1,37 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+        "src/GameMacros.js",
+        "src/resource.js",
+        "src/MainScene.js",
+        "src/Monster.js",
+        "src/Postman.js",
+        "src/Tools.js",
+        "src/Tree.js",
+        "src/UIEnter.js",
+        "src/UILevelEx.js",
+        "src/UIMain.js",
+        "src/Barrier.js",
+        "src/Item.js",
+        "src/UIPause.js",
+        "src/UISuccess.js",
+        "src/UIFail.js",
+        "src/ActionTools.js",
+        "src/UIPostmanEx.js",
+        "src/GameStorage.js",
+        "src/InitData.js",
+        "src/SoundManager.js",
+        "src/MsgBox.js",
+        "src/SkeletonCache.js"
+    ]
+}

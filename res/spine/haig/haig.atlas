@@ -1,0 +1,83 @@
+
+haig.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+haig_j1
+  rotate: false
+  xy: 295, 93
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+haig_j2
+  rotate: true
+  xy: 326, 111
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+haig_j3
+  rotate: true
+  xy: 139, 17
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: -1
+haig_j4
+  rotate: false
+  xy: 206, 56
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+haig_j5
+  rotate: false
+  xy: 230, 62
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+haig_j6
+  rotate: true
+  xy: 139, 2
+  size: 13, 24
+  orig: 13, 24
+  offset: 0, 0
+  index: -1
+haig_ke
+  rotate: false
+  xy: 2, 14
+  size: 135, 112
+  orig: 135, 112
+  offset: 0, 0
+  index: -1
+haig_t
+  rotate: false
+  xy: 139, 44
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+haig_yan
+  rotate: false
+  xy: 181, 49
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+haig_yan1
+  rotate: false
+  xy: 295, 84
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+haig_yz
+  rotate: false
+  xy: 139, 83
+  size: 154, 43
+  orig: 154, 43
+  offset: 0, 0
+  index: -1

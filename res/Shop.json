@@ -1,0 +1,1353 @@
+{
+  "ID": "1b1c4155-2604-4327-9743-e430c73b0bc9",
+  "Version": "2.3.2.3",
+  "Name": "Shop",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 109,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": 1080.0,
+            "TopMargin": 520.0,
+            "Tag": 111,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/_0039.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 646,
+                "Scale9Height": 614,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 360.0003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 3.2,
+                  "Y": 1.8
+                },
+                "PreSize": {
+                  "X": 3.23,
+                  "Y": 3.07
+                },
+                "LeftMargin": 317.0,
+                "RightMargin": -763.0,
+                "TopMargin": -467.0003,
+                "BottomMargin": 53.0003,
+                "Tag": 110,
+                "ActionTag": 422869606,
+                "Size": {
+                  "X": 646.0,
+                  "Y": 614.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 520.0,
+                  "Y": 562.4639
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.6,
+                  "Y": 2.8123
+                },
+                "PreSize": {
+                  "X": 2.0,
+                  "Y": 0.5
+                },
+                "LeftMargin": 520.0,
+                "RightMargin": -720.0,
+                "TopMargin": -462.4639,
+                "BottomMargin": 562.4639,
+                "Tag": 112,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "2元换20金币\n",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 88.0907,
+                      "Y": 44.2395
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2202,
+                      "Y": 0.4424
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -19.9093,
+                    "RightMargin": 203.9093,
+                    "TopMargin": 37.7605,
+                    "BottomMargin": 26.2395,
+                    "Tag": 115,
+                    "ActionTag": 1268726383,
+                    "Size": {
+                      "X": 216.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_gold1",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0037.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0036.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 119,
+                    "Scale9Height": 73,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 303.528,
+                      "Y": 47.3978
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7588,
+                      "Y": 0.474
+                    },
+                    "PreSize": {
+                      "X": 0.3725,
+                      "Y": 0.95
+                    },
+                    "LeftMargin": 229.028,
+                    "RightMargin": 21.972,
+                    "TopMargin": 5.1022,
+                    "BottomMargin": -0.1022,
+                    "Tag": 116,
+                    "ActionTag": -678005944,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 95.0
+                    },
+                    "Name": "Button_buy1",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "购买",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 304.1698,
+                      "Y": 48.1758
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7604,
+                      "Y": 0.4818
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 268.1698,
+                    "RightMargin": 59.8302,
+                    "TopMargin": 33.8242,
+                    "BottomMargin": 30.1758,
+                    "Tag": 117,
+                    "ActionTag": 1246767354,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_rmb1",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -190638144,
+                "Size": {
+                  "X": 400.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_purchase1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 520.0,
+                  "Y": 445.5506
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.6,
+                  "Y": 2.2278
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.5
+                },
+                "LeftMargin": 520.0,
+                "RightMargin": -520.0,
+                "TopMargin": -345.5506,
+                "BottomMargin": 445.5506,
+                "Tag": 113,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "8元换100金币\n",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 97.4905,
+                      "Y": 44.2405
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4875,
+                      "Y": 0.4424
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -22.5095,
+                    "RightMargin": -17.4905,
+                    "TopMargin": 37.7595,
+                    "BottomMargin": 26.2405,
+                    "Tag": 118,
+                    "ActionTag": -495416244,
+                    "Size": {
+                      "X": 240.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_gold2",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0037.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0036.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 119,
+                    "Scale9Height": 73,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 303.53,
+                      "Y": 47.4
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5177,
+                      "Y": 0.474
+                    },
+                    "PreSize": {
+                      "X": 0.3725,
+                      "Y": 0.95
+                    },
+                    "LeftMargin": 229.03,
+                    "RightMargin": -178.03,
+                    "TopMargin": 5.1,
+                    "BottomMargin": -0.1,
+                    "Tag": 120,
+                    "ActionTag": -726281467,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 95.0
+                    },
+                    "Name": "Button_buy2",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "购买",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 306.52,
+                      "Y": 45.82
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5326,
+                      "Y": 0.4582
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 270.52,
+                    "RightMargin": -142.52,
+                    "TopMargin": 36.18,
+                    "BottomMargin": 27.82,
+                    "Tag": 122,
+                    "ActionTag": 1543887150,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_rmb2",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 871147147,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_purchase2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 520.0,
+                  "Y": 330.1741
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.6,
+                  "Y": 1.6509
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.5
+                },
+                "LeftMargin": 520.0,
+                "RightMargin": -520.0,
+                "TopMargin": -230.1741,
+                "BottomMargin": 330.1741,
+                "Tag": 114,
+                "Children": [
+                  {
+                    "FontSize": 32,
+                    "LabelText": "18元换230金币",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 106.8916,
+                      "Y": 44.2401
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5345,
+                      "Y": 0.4424
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -12.1084,
+                    "RightMargin": -25.8916,
+                    "TopMargin": 39.7599,
+                    "BottomMargin": 28.2401,
+                    "Tag": 119,
+                    "ActionTag": 399239130,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 32.0
+                    },
+                    "Name": "Text_gold3",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0037.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0036.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 119,
+                    "Scale9Height": 73,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 303.53,
+                      "Y": 47.4
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5177,
+                      "Y": 0.474
+                    },
+                    "PreSize": {
+                      "X": 0.3725,
+                      "Y": 0.95
+                    },
+                    "LeftMargin": 229.03,
+                    "RightMargin": -178.03,
+                    "TopMargin": 5.1,
+                    "BottomMargin": -0.1,
+                    "Tag": 121,
+                    "ActionTag": -252793226,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 95.0
+                    },
+                    "Name": "Button_buy3",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "购买",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 306.52,
+                      "Y": 45.82
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5326,
+                      "Y": 0.4582
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 270.52,
+                    "RightMargin": -142.52,
+                    "TopMargin": 36.18,
+                    "BottomMargin": 27.82,
+                    "Tag": 123,
+                    "ActionTag": 1663694774,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_rmb3",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -147360707,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_purchase3",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 520.71,
+                  "Y": 213.3645
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.6036,
+                  "Y": 1.0668
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.5
+                },
+                "LeftMargin": 520.71,
+                "RightMargin": -520.71,
+                "TopMargin": -113.3645,
+                "BottomMargin": 213.3645,
+                "Tag": 17,
+                "Children": [
+                  {
+                    "FontSize": 32,
+                    "LabelText": "28元换350金币",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 116.2935,
+                      "Y": 44.2401
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5815,
+                      "Y": 0.4424
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -2.7065,
+                    "RightMargin": -35.2935,
+                    "TopMargin": 39.7599,
+                    "BottomMargin": 28.2401,
+                    "Tag": 18,
+                    "ActionTag": 1404157107,
+                    "Size": {
+                      "X": 238.0,
+                      "Y": 32.0
+                    },
+                    "Name": "Text_gold4",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0037.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0036.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 119,
+                    "Scale9Height": 73,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 303.53,
+                      "Y": 47.4
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5177,
+                      "Y": 0.474
+                    },
+                    "PreSize": {
+                      "X": 0.3725,
+                      "Y": 0.95
+                    },
+                    "LeftMargin": 229.03,
+                    "RightMargin": -178.03,
+                    "TopMargin": 5.1,
+                    "BottomMargin": -0.1,
+                    "Tag": 19,
+                    "ActionTag": 2052294854,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 95.0
+                    },
+                    "Name": "Button_buy4",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "购买",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 306.52,
+                      "Y": 45.82
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5326,
+                      "Y": 0.4582
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 270.52,
+                    "RightMargin": -142.52,
+                    "TopMargin": 36.18,
+                    "BottomMargin": 27.82,
+                    "Tag": 20,
+                    "ActionTag": 950530642,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_rmb4",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 433986417,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_purchase4",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 520.86,
+                  "Y": 96.5554
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 2.6043,
+                  "Y": 0.4828
+                },
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.5
+                },
+                "LeftMargin": 520.86,
+                "RightMargin": -520.86,
+                "TopMargin": 3.4446,
+                "BottomMargin": 96.5554,
+                "Tag": 21,
+                "Children": [
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "Default",
+                      "Path": "Default/Button_Disable.png",
+                      "Plist": ""
+                    },
+                    "PressedFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0037.png",
+                      "Plist": ""
+                    },
+                    "NormalFileData": {
+                      "Type": "Normal",
+                      "Path": "Common/_0036.png",
+                      "Plist": ""
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 119,
+                    "Scale9Height": 73,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 303.53,
+                      "Y": 47.4
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5177,
+                      "Y": 0.474
+                    },
+                    "PreSize": {
+                      "X": 0.3725,
+                      "Y": 0.95
+                    },
+                    "LeftMargin": 229.03,
+                    "RightMargin": -178.03,
+                    "TopMargin": 5.1,
+                    "BottomMargin": -0.1,
+                    "Tag": 23,
+                    "ActionTag": -2070739192,
+                    "Size": {
+                      "X": 149.0,
+                      "Y": 95.0
+                    },
+                    "Name": "Button_buy5",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FontSize": 36,
+                    "LabelText": "购买",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 306.52,
+                      "Y": 45.82
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.5326,
+                      "Y": 0.4582
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 270.52,
+                    "RightMargin": -142.52,
+                    "TopMargin": 36.18,
+                    "BottomMargin": 27.82,
+                    "Tag": 24,
+                    "ActionTag": 1801702261,
+                    "Size": {
+                      "X": 72.0,
+                      "Y": 36.0
+                    },
+                    "Name": "Text_rmb5",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 28,
+                    "LabelText": "12元\n换双倍获取金币 (永久)",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "Font/DFWaWaW5.TTF",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.9594,
+                      "Y": 48.3765
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4848,
+                      "Y": 0.4838
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": -42.5406,
+                    "RightMargin": -36.4594,
+                    "TopMargin": 23.6235,
+                    "BottomMargin": 20.3765,
+                    "Tag": 32,
+                    "ActionTag": -1726393194,
+                    "Size": {
+                      "X": 279.0,
+                      "Y": 56.0
+                    },
+                    "Name": "Text_gold5",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1239226175,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 100.0
+                },
+                "Name": "Panel_purchase5",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -1408251545,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_base",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0048.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0047.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 953.6281,
+              "Y": 653.8766
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.745,
+              "Y": 0.9082
+            },
+            "PreSize": {
+              "X": 0.0703,
+              "Y": 0.1222
+            },
+            "LeftMargin": 908.6281,
+            "RightMargin": 281.3719,
+            "TopMargin": 22.1234,
+            "BottomMargin": 609.8766,
+            "Tag": 124,
+            "ActionTag": 240565407,
+            "Size": {
+              "X": 90.0,
+              "Y": 88.0
+            },
+            "Name": "Button_close",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Common/_0036.png",
+        "Common/_0037.png",
+        "Common/_0039.png",
+        "Common/_0047.png",
+        "Common/_0048.png",
+        "Default/Button_Disable.png",
+        "Font/DFWaWaW5.TTF"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

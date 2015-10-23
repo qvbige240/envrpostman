@@ -1,0 +1,333 @@
+{
+  "ID": "5de911d7-f916-4e7e-8658-3b50977d698f",
+  "Version": "2.3.2.3",
+  "Name": "MsgBox",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 46,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0045.png",
+              "Plist": ""
+            },
+            "Scale9Width": 807,
+            "Scale9Height": 384,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.6305,
+              "Y": 0.5333
+            },
+            "LeftMargin": 236.5,
+            "RightMargin": 236.5,
+            "TopMargin": 168.0,
+            "BottomMargin": 168.0,
+            "Tag": 47,
+            "ActionTag": -1324538608,
+            "Size": {
+              "X": 807.0,
+              "Y": 384.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 36,
+            "ButtonText": "确认",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Font/DFWaWaW5.TTF",
+              "Plist": ""
+            },
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0037.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0036.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 119,
+            "Scale9Height": 73,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 918.7772,
+              "Y": 253.2198
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7178,
+              "Y": 0.3517
+            },
+            "PreSize": {
+              "X": 0.1164,
+              "Y": 0.1319
+            },
+            "LeftMargin": 844.2772,
+            "RightMargin": 286.7228,
+            "TopMargin": 419.2802,
+            "BottomMargin": 205.7198,
+            "Tag": 48,
+            "ActionTag": -1335661822,
+            "Size": {
+              "X": 149.0,
+              "Y": 95.0
+            },
+            "Name": "Button_confirm",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0048.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0047.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 60,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1035.224,
+              "Y": 543.9265
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8088,
+              "Y": 0.7555
+            },
+            "PreSize": {
+              "X": 0.0703,
+              "Y": 0.1222
+            },
+            "LeftMargin": 990.224,
+            "RightMargin": 199.776,
+            "TopMargin": 132.0735,
+            "BottomMargin": 499.9265,
+            "Tag": 49,
+            "ActionTag": 1334606506,
+            "Size": {
+              "X": 90.0,
+              "Y": 88.0
+            },
+            "Name": "Button_close",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 46,
+            "LabelText": "是否花费100金币购买快递员？",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Font/DFWaWaW5.TTF",
+              "Plist": ""
+            },
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 629.7341,
+              "Y": 398.4958
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.492,
+              "Y": 0.5535
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 307.2341,
+            "RightMargin": 327.7659,
+            "TopMargin": 298.5042,
+            "BottomMargin": 375.4958,
+            "Tag": 50,
+            "ActionTag": -1891428600,
+            "Size": {
+              "X": 645.0,
+              "Y": 46.0
+            },
+            "Name": "Text_content",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0111.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 68,
+            "Scale9Height": 76,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 849.9493,
+              "Y": 296.3859
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.664,
+              "Y": 0.4116
+            },
+            "PreSize": {
+              "X": 0.34,
+              "Y": 0.38
+            },
+            "LeftMargin": 815.9493,
+            "RightMargin": 396.0507,
+            "TopMargin": 385.6141,
+            "BottomMargin": 258.3859,
+            "Tag": 38,
+            "ActionTag": 1294976244,
+            "Size": {
+              "X": 68.0,
+              "Y": 76.0
+            },
+            "Name": "Image_3",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Common/_0036.png",
+        "Common/_0037.png",
+        "Common/_0045.png",
+        "Common/_0047.png",
+        "Common/_0048.png",
+        "Default/Button_Disable.png",
+        "Font/DFWaWaW5.TTF",
+        "PlistCommon.plist",
+        "PlistCommon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,27 @@
+
+tupotxa.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tupo_1
+  rotate: false
+  xy: 2, 2
+  size: 481, 87
+  orig: 481, 87
+  offset: 0, 0
+  index: -1
+tupo_2
+  rotate: false
+  xy: 2, 91
+  size: 1110, 8
+  orig: 1110, 8
+  offset: 0, 0
+  index: -1
+tupo_3
+  rotate: false
+  xy: 485, 35
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1

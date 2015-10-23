@@ -1,0 +1,298 @@
+{
+  "ID": "32faa757-fc1a-4a90-a5f0-11eaaf4b7e3c",
+  "Version": "2.3.2.3",
+  "Name": "Rank",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 31,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 32,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Default",
+                  "Path": "Default/ImageFile.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 646,
+                "Scale9Height": 614,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 646.2471,
+                  "Y": 356.4302
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5049,
+                  "Y": 0.495
+                },
+                "PreSize": {
+                  "X": 0.5047,
+                  "Y": 0.8528
+                },
+                "LeftMargin": 323.2471,
+                "RightMargin": 310.7529,
+                "TopMargin": 56.5698,
+                "BottomMargin": 49.4302,
+                "Tag": 33,
+                "ActionTag": 1476130804,
+                "Size": {
+                  "X": 46.0,
+                  "Y": 46.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 371.2627,
+                  "Y": 62.4722
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.29,
+                  "Y": 0.0868
+                },
+                "PreSize": {
+                  "X": 0.4375,
+                  "Y": 0.6667
+                },
+                "LeftMargin": 371.2627,
+                "RightMargin": 348.7373,
+                "TopMargin": 177.5278,
+                "BottomMargin": 62.4722,
+                "Tag": 34,
+                "ActionTag": -1432904675,
+                "Size": {
+                  "X": 560.0,
+                  "Y": 480.0
+                },
+                "Name": "Panel_listview",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/_0048.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "Common/_0047.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 60,
+                "Scale9Height": 66,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 958.6082,
+                  "Y": 650.9417
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7489,
+                  "Y": 0.9041
+                },
+                "PreSize": {
+                  "X": 0.0703,
+                  "Y": 0.1222
+                },
+                "LeftMargin": 913.6082,
+                "RightMargin": 276.3918,
+                "TopMargin": 25.0583,
+                "BottomMargin": 606.9417,
+                "Tag": 41,
+                "ActionTag": -1400503981,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 88.0
+                },
+                "Name": "Button_close",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "10000",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/DFWaWaW5.TTF",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 888.9962,
+                  "Y": 567.05
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6945,
+                  "Y": 0.7876
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 838.9962,
+                "RightMargin": 341.0038,
+                "TopMargin": 137.95,
+                "BottomMargin": 552.05,
+                "Tag": 42,
+                "ActionTag": 1187630199,
+                "Size": {
+                  "X": 100.0,
+                  "Y": 30.0
+                },
+                "Name": "Text_myrank",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1573843172,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Panel_base",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Common/_0047.png",
+        "Common/_0048.png",
+        "Default/Button_Disable.png",
+        "Default/ImageFile.png",
+        "Font/DFWaWaW5.TTF"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

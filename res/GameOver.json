@@ -1,0 +1,360 @@
+{
+  "ID": "6fc48d4b-a97b-4b00-9145-0fcf59a446eb",
+  "Version": "2.2.6.0",
+  "Name": "GameOver",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 27,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0004_40.png",
+              "Plist": ""
+            },
+            "Scale9Width": 631,
+            "Scale9Height": 236,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.493,
+              "Y": 0.3278
+            },
+            "LeftMargin": 324.5,
+            "RightMargin": 324.5,
+            "TopMargin": 242.0,
+            "BottomMargin": 242.0,
+            "Tag": 28,
+            "ActionTag": 135833031,
+            "Size": {
+              "X": 631.0,
+              "Y": 236.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0000_44.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0000_44.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 58,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 406.2126,
+              "Y": 372.8086
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3174,
+              "Y": 0.5178
+            },
+            "PreSize": {
+              "X": 0.0688,
+              "Y": 0.1222
+            },
+            "LeftMargin": 362.2126,
+            "RightMargin": 829.7874,
+            "TopMargin": 303.1914,
+            "BottomMargin": 328.8086,
+            "Tag": 29,
+            "ActionTag": -492201003,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "Button_restart",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0001_43.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0001_43.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 58,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 553.2333,
+              "Y": 375.2191
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4322,
+              "Y": 0.5211
+            },
+            "PreSize": {
+              "X": 0.0688,
+              "Y": 0.1222
+            },
+            "LeftMargin": 509.2333,
+            "RightMargin": 682.7667,
+            "TopMargin": 300.7809,
+            "BottomMargin": 331.2191,
+            "Tag": 30,
+            "ActionTag": -104743358,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "Button_rank",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0002_42.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0002_42.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 58,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 721.9464,
+              "Y": 375.2193
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.564,
+              "Y": 0.5211
+            },
+            "PreSize": {
+              "X": 0.0688,
+              "Y": 0.1222
+            },
+            "LeftMargin": 677.9464,
+            "RightMargin": 514.0536,
+            "TopMargin": 300.7807,
+            "BottomMargin": 331.2193,
+            "Tag": 31,
+            "ActionTag": -659255312,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "Button_share",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0003_41.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0003_41.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 58,
+            "Scale9Height": 66,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 866.557,
+              "Y": 375.2196
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.677,
+              "Y": 0.5211
+            },
+            "PreSize": {
+              "X": 0.0688,
+              "Y": 0.1222
+            },
+            "LeftMargin": 822.557,
+            "RightMargin": 369.443,
+            "TopMargin": 300.7804,
+            "BottomMargin": 331.2196,
+            "Tag": 32,
+            "ActionTag": 585189757,
+            "Size": {
+              "X": 88.0,
+              "Y": 88.0
+            },
+            "Name": "Button_alive",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

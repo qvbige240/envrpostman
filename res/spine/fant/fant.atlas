@@ -1,0 +1,83 @@
+
+fant.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fant_bq1
+  rotate: true
+  xy: 138, 9
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+fant_bq2
+  rotate: false
+  xy: 191, 78
+  size: 49, 48
+  orig: 49, 48
+  offset: 0, 0
+  index: -1
+fant_bq3a
+  rotate: true
+  xy: 156, 50
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+fant_bq3b
+  rotate: false
+  xy: 190, 54
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+fant_cf
+  rotate: true
+  xy: 89, 42
+  size: 44, 65
+  orig: 44, 65
+  offset: 0, 0
+  index: -1
+fant_cf1
+  rotate: true
+  xy: 89, 2
+  size: 38, 47
+  orig: 38, 47
+  offset: 0, 0
+  index: -1
+fant_j1
+  rotate: false
+  xy: 63, 6
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+fant_j2
+  rotate: false
+  xy: 161, 19
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+fant_st
+  rotate: false
+  xy: 2, 37
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+fant_ym
+  rotate: false
+  xy: 2, 9
+  size: 59, 26
+  orig: 59, 26
+  offset: 0, 0
+  index: -1
+fant_yz
+  rotate: false
+  xy: 89, 88
+  size: 100, 38
+  orig: 100, 38
+  offset: 0, 0
+  index: -1

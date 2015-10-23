@@ -1,0 +1,62 @@
+
+shug.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shug_j1
+  rotate: false
+  xy: 174, 172
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+shug_j2
+  rotate: false
+  xy: 2, 2
+  size: 22, 39
+  orig: 22, 39
+  offset: 0, 0
+  index: -1
+shug_st
+  rotate: false
+  xy: 2, 84
+  size: 125, 132
+  orig: 125, 132
+  offset: 0, 0
+  index: -1
+shug_wb
+  rotate: false
+  xy: 2, 43
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+shug_y1
+  rotate: false
+  xy: 52, 62
+  size: 34, 20
+  orig: 34, 20
+  offset: 0, 0
+  index: -1
+shug_y2
+  rotate: false
+  xy: 201, 202
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+shug_y3
+  rotate: false
+  xy: 174, 151
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+shug_yz
+  rotate: true
+  xy: 129, 63
+  size: 153, 43
+  orig: 153, 43
+  offset: 0, 0
+  index: -1

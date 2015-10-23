@@ -1,0 +1,153 @@
+
+zhujue.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhujue_bb
+  rotate: true
+  xy: 322, 89
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+zhujue_bb1
+  rotate: false
+  xy: 311, 75
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+zhujue_bq1
+  rotate: true
+  xy: 254, 56
+  size: 40, 13
+  orig: 40, 13
+  offset: 0, 0
+  index: -1
+zhujue_bq2
+  rotate: false
+  xy: 401, 117
+  size: 45, 9
+  orig: 45, 9
+  offset: 0, 0
+  index: -1
+zhujue_j1
+  rotate: false
+  xy: 210, 20
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+zhujue_j2
+  rotate: true
+  xy: 235, 2
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+zhujue_j21
+  rotate: true
+  xy: 188, 86
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+zhujue_j3
+  rotate: false
+  xy: 291, 66
+  size: 18, 21
+  orig: 18, 21
+  offset: 0, 0
+  index: -1
+zhujue_j4
+  rotate: true
+  xy: 210, 2
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+zhujue_j41
+  rotate: true
+  xy: 196, 86
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+zhujue_mz
+  rotate: false
+  xy: 104, 18
+  size: 104, 66
+  orig: 104, 66
+  offset: 0, 0
+  index: -1
+zhujue_s1
+  rotate: false
+  xy: 269, 63
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1
+zhujue_s2
+  rotate: false
+  xy: 427, 98
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+zhujue_s4
+  rotate: false
+  xy: 427, 98
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+zhujue_s3
+  rotate: true
+  xy: 401, 95
+  size: 20, 24
+  orig: 20, 24
+  offset: 0, 0
+  index: -1
+zhujue_st
+  rotate: false
+  xy: 210, 46
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+zhujue_t
+  rotate: false
+  xy: 2, 11
+  size: 100, 73
+  orig: 100, 73
+  offset: 0, 0
+  index: -1
+zhujue_xx1
+  rotate: false
+  xy: 364, 92
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+zhujue_xx2
+  rotate: false
+  xy: 2, 86
+  size: 184, 40
+  orig: 184, 40
+  offset: 0, 0
+  index: -1
+zhujue_xz
+  rotate: false
+  xy: 269, 89
+  size: 51, 37
+  orig: 51, 37
+  offset: 0, 0
+  index: -1
+zhujue_yz
+  rotate: false
+  xy: 188, 98
+  size: 79, 28
+  orig: 79, 28
+  offset: 0, 0
+  index: -1

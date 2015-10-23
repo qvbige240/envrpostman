@@ -1,0 +1,146 @@
+
+zhujue.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ds_bang
+  rotate: false
+  xy: 2, 23
+  size: 95, 100
+  orig: 95, 100
+  offset: 0, 0
+  index: -1
+ds_bao
+  rotate: false
+  xy: 364, 79
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+ds_j1
+  rotate: true
+  xy: 132, 24
+  size: 15, 20
+  orig: 15, 20
+  offset: 0, 0
+  index: -1
+ds_j2
+  rotate: true
+  xy: 270, 61
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+ds_j3
+  rotate: false
+  xy: 447, 103
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+ds_j4
+  rotate: true
+  xy: 154, 28
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+ds_s1
+  rotate: true
+  xy: 55, 2
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+ds_s2
+  rotate: false
+  xy: 407, 94
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+ds_s3
+  rotate: false
+  xy: 426, 97
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+ds_s4
+  rotate: true
+  xy: 240, 56
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+ds_st
+  rotate: false
+  xy: 319, 78
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+ds_st1
+  rotate: false
+  xy: 205, 54
+  size: 33, 18
+  orig: 33, 18
+  offset: 0, 0
+  index: -1
+ds_t
+  rotate: true
+  xy: 99, 41
+  size: 82, 104
+  orig: 82, 104
+  offset: 0, 0
+  index: -1
+ds_y1
+  rotate: false
+  xy: 99, 24
+  size: 31, 15
+  orig: 31, 15
+  offset: 0, 0
+  index: -1
+ds_y2
+  rotate: false
+  xy: 205, 46
+  size: 31, 6
+  orig: 31, 6
+  offset: 0, 0
+  index: -1
+ds_yun
+  rotate: false
+  xy: 205, 74
+  size: 112, 49
+  orig: 112, 49
+  offset: 0, 0
+  index: -1
+ds_yun1
+  rotate: false
+  xy: 83, 13
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+ds_yz
+  rotate: false
+  xy: 2, 2
+  size: 51, 19
+  orig: 51, 19
+  offset: 0, 0
+  index: -1
+ds_z1
+  rotate: false
+  xy: 463, 113
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+ds_z2
+  rotate: false
+  xy: 407, 83
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+xiaox.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiaox_j1
+  rotate: false
+  xy: 225, 89
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+xiaox_j2
+  rotate: false
+  xy: 117, 41
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+xiaox_j3
+  rotate: false
+  xy: 117, 2
+  size: 18, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+xiaox_j4
+  rotate: false
+  xy: 137, 32
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+xiaox_s1
+  rotate: false
+  xy: 137, 65
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+xiaox_s2
+  rotate: false
+  xy: 182, 89
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+xiaox_s3
+  rotate: true
+  xy: 154, 33
+  size: 30, 13
+  orig: 30, 13
+  offset: 0, 0
+  index: -1
+xiaox_s4
+  rotate: false
+  xy: 135, 91
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+xiaox_st
+  rotate: false
+  xy: 2, 16
+  size: 113, 62
+  orig: 113, 62
+  offset: 0, 0
+  index: -1
+xiaox_yan1
+  rotate: true
+  xy: 33, 3
+  size: 11, 28
+  orig: 11, 28
+  offset: 0, 0
+  index: -1
+xiaox_yan2
+  rotate: true
+  xy: 2, 3
+  size: 11, 29
+  orig: 11, 29
+  offset: 0, 0
+  index: -1
+xiaox_yz
+  rotate: false
+  xy: 2, 80
+  size: 131, 46
+  orig: 131, 46
+  offset: 0, 0
+  index: -1

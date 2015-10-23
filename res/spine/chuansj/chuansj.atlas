@@ -1,0 +1,55 @@
+
+chuansj.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chuansj_j1
+  rotate: false
+  xy: 2, 2
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+chuansj_j2
+  rotate: false
+  xy: 143, 37
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+chuansj_j3
+  rotate: false
+  xy: 290, 91
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+chuansj_j4
+  rotate: false
+  xy: 28, 2
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+chuansj_st
+  rotate: false
+  xy: 2, 29
+  size: 139, 87
+  orig: 139, 87
+  offset: 0, 0
+  index: -1
+chuansj_yj
+  rotate: false
+  xy: 168, 53
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+chuansj_yz
+  rotate: false
+  xy: 143, 65
+  size: 145, 51
+  orig: 145, 51
+  offset: 0, 0
+  index: -1

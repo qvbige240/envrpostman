@@ -1,0 +1,83 @@
+
+dab.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dab_j1
+  rotate: true
+  xy: 30, 4
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+dab_j2
+  rotate: true
+  xy: 2, 2
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+dab_st1
+  rotate: false
+  xy: 112, 15
+  size: 82, 47
+  orig: 82, 47
+  offset: 0, 0
+  index: -1
+dab_st2
+  rotate: false
+  xy: 196, 24
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+dab_st3
+  rotate: false
+  xy: 264, 19
+  size: 49, 43
+  orig: 49, 43
+  offset: 0, 0
+  index: -1
+dab_yan1
+  rotate: false
+  xy: 315, 35
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+dab_yan1a
+  rotate: false
+  xy: 315, 26
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+dab_yan2
+  rotate: false
+  xy: 336, 39
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+dab_yan2a
+  rotate: false
+  xy: 59, 16
+  size: 4, 6
+  orig: 4, 6
+  offset: 0, 0
+  index: -1
+dab_yz
+  rotate: false
+  xy: 2, 24
+  size: 108, 38
+  orig: 108, 38
+  offset: 0, 0
+  index: -1
+dab_z
+  rotate: true
+  xy: 196, 15
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: -1

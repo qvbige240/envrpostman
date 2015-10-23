@@ -1,0 +1,1517 @@
+{
+  "ID": "f2857431-5cc7-4105-827e-32cf748ec7b0",
+  "Version": "2.3.2.3",
+  "Name": "Main",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 29,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 19,
+            "ActionTag": 1887369429,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "Panel_touch",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0055c.png",
+              "Plist": "PlistCommon2.plist"
+            },
+            "Scale9Width": 1280,
+            "Scale9Height": 361,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 720.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 1.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.5
+            },
+            "BottomMargin": 360.0,
+            "Tag": 32,
+            "ActionTag": 1826864336,
+            "Size": {
+              "X": 1280.0,
+              "Y": 360.0
+            },
+            "Name": "Image_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0055b.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 521,
+            "Scale9Height": 213,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 985.1323,
+              "Y": 534.5854
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7696,
+              "Y": 0.7425
+            },
+            "PreSize": {
+              "X": 0.4414,
+              "Y": 0.2819
+            },
+            "LeftMargin": 702.6323,
+            "RightMargin": 12.3677,
+            "TopMargin": 83.9146,
+            "BottomMargin": 433.0854,
+            "Tag": 23,
+            "ActionTag": -1813869467,
+            "Size": {
+              "X": 565.0,
+              "Y": 203.0
+            },
+            "Name": "Image_cloud",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0055a.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1280,
+            "Scale9Height": 437,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0208
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6069
+            },
+            "TopMargin": 268.0,
+            "BottomMargin": 15.0,
+            "Tag": 15,
+            "ActionTag": -1192533206,
+            "Size": {
+              "X": 1280.0,
+              "Y": 437.0
+            },
+            "Name": "Image_road1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0055a.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1280,
+            "Scale9Height": 437,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 1280.0,
+              "Y": 15.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.0,
+              "Y": 0.0208
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.6069
+            },
+            "LeftMargin": 1280.0,
+            "RightMargin": -1280.0,
+            "TopMargin": 268.0,
+            "BottomMargin": 15.0,
+            "Tag": 16,
+            "ActionTag": 28624235,
+            "Size": {
+              "X": 1280.0,
+              "Y": 437.0
+            },
+            "Name": "Image_road2",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0008,
+              "Y": 0.0014
+            },
+            "RightMargin": 1279.0,
+            "TopMargin": 719.0,
+            "Tag": 15,
+            "ActionTag": 1920730573,
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Name": "Panel_top_tree",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0075.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 176,
+            "Scale9Height": 197,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 901.03,
+              "Y": 256.3318
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7039,
+              "Y": 0.356
+            },
+            "PreSize": {
+              "X": 0.1375,
+              "Y": 0.2736
+            },
+            "LeftMargin": 813.03,
+            "RightMargin": 290.97,
+            "TopMargin": 365.1682,
+            "BottomMargin": 157.8318,
+            "Tag": 19,
+            "ActionTag": 1945115653,
+            "Size": {
+              "X": 176.0,
+              "Y": 197.0
+            },
+            "Name": "Image_record",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0074.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 349,
+            "Scale9Height": 379,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1141.676,
+              "Y": 342.4211
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8919,
+              "Y": 0.4756
+            },
+            "PreSize": {
+              "X": 0.2727,
+              "Y": 0.5264
+            },
+            "LeftMargin": 967.176,
+            "RightMargin": -36.176,
+            "TopMargin": 188.0789,
+            "BottomMargin": 152.9211,
+            "Tag": 20,
+            "ActionTag": -1057005381,
+            "Size": {
+              "X": 349.0,
+              "Y": 379.0
+            },
+            "Name": "Image_end",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0008,
+              "Y": 0.0014
+            },
+            "RightMargin": 1279.0,
+            "TopMargin": 719.0,
+            "Tag": 17,
+            "ActionTag": 541945629,
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Name": "Panel_monster",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0008,
+              "Y": 0.0014
+            },
+            "RightMargin": 1279.0,
+            "TopMargin": 719.0,
+            "Tag": 16,
+            "ActionTag": -164313558,
+            "Size": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Name": "Panel_bottom_tree",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0006.png",
+              "Plist": ""
+            },
+            "Scale9Width": 1277,
+            "Scale9Height": 15,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.0194
+            },
+            "TopMargin": 706.0,
+            "Tag": 21,
+            "ActionTag": 1890593515,
+            "Size": {
+              "X": 1280.0,
+              "Y": 14.0
+            },
+            "Name": "Image_7",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0003.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 33,
+            "Scale9Height": 121,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1100.0,
+              "Y": 59.8093
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8594,
+              "Y": 0.0831
+            },
+            "PreSize": {
+              "X": 0.0258,
+              "Y": 0.1681
+            },
+            "LeftMargin": 1083.5,
+            "RightMargin": 163.5,
+            "TopMargin": 599.6907,
+            "BottomMargin": -0.6907,
+            "Tag": 18,
+            "ActionTag": -1099038850,
+            "Size": {
+              "X": 33.0,
+              "Y": 121.0
+            },
+            "Name": "Image_next",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0004.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 33,
+            "Scale9Height": 110,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 270.7678,
+              "Y": 55.6045
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.2115,
+              "Y": 0.0772
+            },
+            "PreSize": {
+              "X": 0.0258,
+              "Y": 0.1528
+            },
+            "LeftMargin": 254.2678,
+            "RightMargin": 992.7322,
+            "TopMargin": 609.3955,
+            "BottomMargin": 0.6045,
+            "Tag": 19,
+            "ActionTag": -436562842,
+            "Size": {
+              "X": 33.0,
+              "Y": 110.0
+            },
+            "Name": "Image_last",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0005.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 48,
+            "Scale9Height": 56,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 449.7083,
+              "Y": 34.4545
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3513,
+              "Y": 0.0479
+            },
+            "PreSize": {
+              "X": 0.0375,
+              "Y": 0.0778
+            },
+            "LeftMargin": 425.7083,
+            "RightMargin": 806.2917,
+            "TopMargin": 657.5455,
+            "BottomMargin": 6.4545,
+            "Tag": 20,
+            "ActionTag": 1390383877,
+            "Size": {
+              "X": 48.0,
+              "Y": 56.0
+            },
+            "Name": "Image_now",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0000a.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0000.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 110,
+            "Scale9Height": 156,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1184.3469,
+              "Y": 142.6966
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9253,
+              "Y": 0.1982
+            },
+            "PreSize": {
+              "X": 0.1094,
+              "Y": 0.2472
+            },
+            "LeftMargin": 1114.3469,
+            "RightMargin": 25.6531,
+            "TopMargin": 488.3034,
+            "BottomMargin": 53.6966,
+            "Tag": 35,
+            "ActionTag": -1489546159,
+            "Size": {
+              "X": 140.0,
+              "Y": 178.0
+            },
+            "Name": "Button_jump",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0007.png",
+              "Plist": ""
+            },
+            "Scale9Width": 186,
+            "Scale9Height": 86,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 126.2092,
+              "Y": 650.2504
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0986,
+              "Y": 0.9031
+            },
+            "PreSize": {
+              "X": 0.1578,
+              "Y": 0.1194
+            },
+            "LeftMargin": 25.2092,
+            "RightMargin": 1052.7908,
+            "TopMargin": 26.7496,
+            "BottomMargin": 607.2504,
+            "Tag": 22,
+            "ActionTag": 1210964987,
+            "Size": {
+              "X": 202.0,
+              "Y": 86.0
+            },
+            "Name": "Image_8",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "10000",
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 156.8712,
+              "Y": 647.5897
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1226,
+              "Y": 0.8994
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 106.8712,
+            "RightMargin": 1073.1288,
+            "TopMargin": 51.4103,
+            "BottomMargin": 626.5897,
+            "Tag": 40,
+            "ActionTag": -2108589266,
+            "Size": {
+              "X": 100.0,
+              "Y": 42.0
+            },
+            "Name": "Text_gold",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0008a.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0008.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 99,
+            "Scale9Height": 110,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1208.501,
+              "Y": 655.4269
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9441,
+              "Y": 0.9103
+            },
+            "PreSize": {
+              "X": 0.1008,
+              "Y": 0.1833
+            },
+            "LeftMargin": 1144.001,
+            "RightMargin": 6.999,
+            "TopMargin": -1.4269,
+            "BottomMargin": 589.4269,
+            "Tag": 40,
+            "ActionTag": -1517428142,
+            "Size": {
+              "X": 129.0,
+              "Y": 132.0
+            },
+            "Name": "Button_pause",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0082a.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0082.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 9,
+            "Scale9OriginY": 11,
+            "Scale9Width": 144,
+            "Scale9Height": 140,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 144.7887,
+              "Y": 389.675
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1131,
+              "Y": 0.5412
+            },
+            "PreSize": {
+              "X": 0.1266,
+              "Y": 0.225
+            },
+            "LeftMargin": 63.7887,
+            "RightMargin": 1054.2113,
+            "TopMargin": 249.325,
+            "BottomMargin": 308.675,
+            "Tag": 20,
+            "ActionTag": 767999854,
+            "Size": {
+              "X": 162.0,
+              "Y": 162.0
+            },
+            "Name": "Button_up",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0081a.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "Common/_0081.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 9,
+            "Scale9OriginY": 11,
+            "Scale9Width": 144,
+            "Scale9Height": 140,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 144.7235,
+              "Y": 174.7414
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1131,
+              "Y": 0.2427
+            },
+            "PreSize": {
+              "X": 0.1266,
+              "Y": 0.225
+            },
+            "LeftMargin": 63.7235,
+            "RightMargin": 1054.2765,
+            "TopMargin": 464.2586,
+            "BottomMargin": 93.7414,
+            "Tag": 21,
+            "ActionTag": -1800737325,
+            "Size": {
+              "X": 162.0,
+              "Y": 162.0
+            },
+            "Name": "Button_down",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Common/_0095.png",
+              "Plist": "PlistCommon.plist"
+            },
+            "Scale9Width": 212,
+            "Scale9Height": 47,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 500.0,
+              "Y": 650.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3906,
+              "Y": 0.9028
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.0653
+            },
+            "LeftMargin": 394.0,
+            "RightMargin": 674.0,
+            "TopMargin": 46.5,
+            "BottomMargin": 626.5,
+            "Tag": 132,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0096.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 26.5796,
+                  "Y": 22.5928
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1254,
+                  "Y": 0.4807
+                },
+                "PreSize": {
+                  "X": 0.184,
+                  "Y": 0.8511
+                },
+                "LeftMargin": 7.0796,
+                "RightMargin": 165.9204,
+                "TopMargin": 4.4072,
+                "BottomMargin": 2.5928,
+                "Tag": 133,
+                "ActionTag": -847780870,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_life1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0096.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.4818,
+                  "Y": 23.89
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3136,
+                  "Y": 0.5083
+                },
+                "PreSize": {
+                  "X": 0.184,
+                  "Y": 0.8511
+                },
+                "LeftMargin": 46.9818,
+                "RightMargin": 126.0182,
+                "TopMargin": 3.11,
+                "BottomMargin": 3.89,
+                "Tag": 138,
+                "ActionTag": -987490586,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_life2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0096.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 107.0471,
+                  "Y": 23.8565
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5049,
+                  "Y": 0.5076
+                },
+                "PreSize": {
+                  "X": 0.184,
+                  "Y": 0.8511
+                },
+                "LeftMargin": 87.5471,
+                "RightMargin": 85.4529,
+                "TopMargin": 3.1435,
+                "BottomMargin": 3.8565,
+                "Tag": 139,
+                "ActionTag": 1207009411,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_life3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0096.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.9484,
+                  "Y": 23.1593
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6932,
+                  "Y": 0.4928
+                },
+                "PreSize": {
+                  "X": 0.184,
+                  "Y": 0.8511
+                },
+                "LeftMargin": 127.4484,
+                "RightMargin": 45.5516,
+                "TopMargin": 3.8407,
+                "BottomMargin": 3.1593,
+                "Tag": 140,
+                "ActionTag": -1826567343,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_life4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0096.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 39,
+                "Scale9Height": 40,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 186.8493,
+                  "Y": 22.4619
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8814,
+                  "Y": 0.4779
+                },
+                "PreSize": {
+                  "X": 0.184,
+                  "Y": 0.8511
+                },
+                "LeftMargin": 167.3493,
+                "RightMargin": 5.6507,
+                "TopMargin": 4.5381,
+                "BottomMargin": 2.4619,
+                "Tag": 141,
+                "ActionTag": -1979749245,
+                "Size": {
+                  "X": 39.0,
+                  "Y": 40.0
+                },
+                "Name": "Image_life5",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -101626573,
+            "Size": {
+              "X": 212.0,
+              "Y": 47.0
+            },
+            "Name": "Image_life",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "Common/_0098.png",
+              "Plist": ""
+            },
+            "Scale9Width": 247,
+            "Scale9Height": 46,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 872.2778,
+              "Y": 650.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6815,
+              "Y": 0.9028
+            },
+            "PreSize": {
+              "X": 0.193,
+              "Y": 0.0639
+            },
+            "LeftMargin": 748.7778,
+            "RightMargin": 284.2222,
+            "TopMargin": 47.0,
+            "BottomMargin": 627.0,
+            "Tag": 57,
+            "ActionTag": -1975113568,
+            "Size": {
+              "X": 247.0,
+              "Y": 46.0
+            },
+            "Name": "Image_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 30,
+            "LabelText": "1000000",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "Font/DFWaWaW5.TTF",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "G": 127,
+              "B": 80
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 840.7346,
+              "Y": 650.3471
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6568,
+              "Y": 0.9033
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 770.7346,
+            "RightMargin": 369.2654,
+            "TopMargin": 54.6529,
+            "BottomMargin": 635.3471,
+            "Tag": 58,
+            "ActionTag": 178207427,
+            "Size": {
+              "X": 140.0,
+              "Y": 30.0
+            },
+            "Name": "Text_distance",
+            "ctype": "TextObjectData"
+          },
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.2778
+            },
+            "RightMargin": 1080.0,
+            "TopMargin": 520.0,
+            "Tag": 111,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0109.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 68,
+                "Scale9Height": 76,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1148.6394,
+                  "Y": 679.9511
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.7432,
+                  "Y": 3.3998
+                },
+                "PreSize": {
+                  "X": 0.0531,
+                  "Y": 0.1056
+                },
+                "LeftMargin": 1114.6394,
+                "RightMargin": -982.6394,
+                "TopMargin": -517.9511,
+                "BottomMargin": 641.9511,
+                "Tag": 96,
+                "ActionTag": 1114157536,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0111.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 68,
+                "Scale9Height": 76,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1117.6847,
+                  "Y": 158.0265
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 5.5884,
+                  "Y": 0.7901
+                },
+                "PreSize": {
+                  "X": 0.34,
+                  "Y": 0.38
+                },
+                "LeftMargin": 1083.6847,
+                "RightMargin": -951.6847,
+                "TopMargin": 3.9735,
+                "BottomMargin": 120.0265,
+                "Tag": 110,
+                "ActionTag": -2098338519,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 76.0
+                },
+                "Name": "Image_3",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1570779068,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_keyboard",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Common/_0000.png",
+        "Common/_0000a.png",
+        "Common/_0006.png",
+        "Common/_0007.png",
+        "Common/_0008.png",
+        "Common/_0008a.png",
+        "Common/_0055a.png",
+        "Common/_0081.png",
+        "Common/_0081a.png",
+        "Common/_0082.png",
+        "Common/_0082a.png",
+        "Common/_0098.png",
+        "Default/Button_Disable.png",
+        "Font/DFWaWaW5.TTF",
+        "PlistCommon.plist",
+        "PlistCommon.png",
+        "PlistCommon2.plist",
+        "PlistCommon2.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

@@ -1,0 +1,13 @@
+
+jstx.png
+size: 64,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a
+  rotate: false
+  xy: 2, 2
+  size: 30, 321
+  orig: 30, 321
+  offset: 0, 0
+  index: -1

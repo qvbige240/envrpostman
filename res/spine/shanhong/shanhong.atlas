@@ -1,0 +1,13 @@
+
+shanhong.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Images/shan
+  rotate: false
+  xy: 2, 2
+  size: 634, 364
+  orig: 634, 364
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+luoshi.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiantou
+  rotate: true
+  xy: 643, 47
+  size: 79, 80
+  orig: 79, 80
+  offset: 0, 0
+  index: -1
+s1
+  rotate: false
+  xy: 725, 58
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+s2
+  rotate: false
+  xy: 291, 14
+  size: 39, 60
+  orig: 39, 60
+  offset: 0, 0
+  index: -1
+s3
+  rotate: false
+  xy: 842, 75
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+s4
+  rotate: false
+  xy: 793, 71
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+s5
+  rotate: true
+  xy: 2, 12
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+s6
+  rotate: true
+  xy: 250, 2
+  size: 72, 39
+  orig: 72, 39
+  offset: 0, 0
+  index: -1
+sanjiao
+  rotate: false
+  xy: 2, 41
+  size: 246, 85
+  orig: 246, 85
+  offset: 0, 0
+  index: -1
+tanhao
+  rotate: true
+  xy: 434, 73
+  size: 53, 98
+  orig: 53, 98
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 250, 76
+  size: 182, 50
+  orig: 182, 50
+  offset: 0, 0
+  index: -1
+yz
+  rotate: false
+  xy: 534, 88
+  size: 107, 38
+  orig: 107, 38
+  offset: 0, 0
+  index: -1

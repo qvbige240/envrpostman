@@ -1,0 +1,1181 @@
+{
+  "ID": "72421485-7bd7-4bf3-ab52-88727e7c2dcd",
+  "Version": "2.3.2.3",
+  "Name": "PostmanBg",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 58,
+        "Children": [
+          {
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0005,
+              "Y": 20.5645
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 0.0005,
+            "RightMargin": -200.0005,
+            "TopMargin": -220.5645,
+            "BottomMargin": 20.5645,
+            "Tag": 61,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/_0093.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 210,
+                "Scale9Height": 328,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -105.0,
+                "RightMargin": 95.0,
+                "TopMargin": 36.0,
+                "BottomMargin": -164.0,
+                "Tag": 59,
+                "ActionTag": -1140489637,
+                "Size": {
+                  "X": 210.0,
+                  "Y": 328.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0042.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 106,
+                "Scale9Height": 91,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1.3296,
+                  "Y": 88.2131
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0066,
+                  "Y": 0.4411
+                },
+                "PreSize": {
+                  "X": 0.53,
+                  "Y": 0.455
+                },
+                "LeftMargin": -51.6704,
+                "RightMargin": 145.6704,
+                "TopMargin": 66.2869,
+                "BottomMargin": 42.7131,
+                "Tag": 77,
+                "ActionTag": -669969681,
+                "Size": {
+                  "X": 106.0,
+                  "Y": 91.0
+                },
+                "Name": "Image_postman",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "名字名字名字",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/DFWaWaW5.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -3.5463,
+                  "Y": -16.402
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0177,
+                  "Y": -0.082
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -99.5463,
+                "RightMargin": 107.5463,
+                "TopMargin": 200.402,
+                "BottomMargin": -32.402,
+                "Tag": 76,
+                "ActionTag": 1347778460,
+                "Size": {
+                  "X": 192.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_name",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -18.5598,
+                  "Y": -60.9187
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0928,
+                  "Y": -0.3046
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -31.0598,
+                "RightMargin": 206.0598,
+                "TopMargin": 247.4187,
+                "BottomMargin": -74.4187,
+                "Tag": 60,
+                "ActionTag": -1818226536,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_life_star1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 6.7226,
+                  "Y": -60.2871
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0336,
+                  "Y": -0.3014
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -5.7774,
+                "RightMargin": 180.7774,
+                "TopMargin": 246.7871,
+                "BottomMargin": -73.7871,
+                "Tag": 62,
+                "ActionTag": -307587708,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_life_star2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.6698,
+                  "Y": -59.6556
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1633,
+                  "Y": -0.2983
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 20.1698,
+                "RightMargin": 154.8302,
+                "TopMargin": 246.1556,
+                "BottomMargin": -73.1556,
+                "Tag": 63,
+                "ActionTag": 127915920,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_life_star3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57.7302,
+                  "Y": -60.1318
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2887,
+                  "Y": -0.3007
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 45.2302,
+                "RightMargin": 129.7698,
+                "TopMargin": 246.6318,
+                "BottomMargin": -73.6318,
+                "Tag": 64,
+                "ActionTag": -1114469828,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_life_star4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 81.9055,
+                  "Y": -61.0503
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4095,
+                  "Y": -0.3053
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 69.4055,
+                "RightMargin": 105.5945,
+                "TopMargin": 247.5503,
+                "BottomMargin": -74.5503,
+                "Tag": 65,
+                "ActionTag": 1223464429,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_life_star5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -17.8689,
+                  "Y": -102.3921
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0893,
+                  "Y": -0.512
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -30.3689,
+                "RightMargin": 205.3689,
+                "TopMargin": 288.8921,
+                "BottomMargin": -115.8921,
+                "Tag": 66,
+                "ActionTag": -1417547166,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_run_star1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 6.7592,
+                  "Y": -103.0837
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0338,
+                  "Y": -0.5154
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -5.7408,
+                "RightMargin": 180.7408,
+                "TopMargin": 289.5837,
+                "BottomMargin": -116.5837,
+                "Tag": 67,
+                "ActionTag": -1677094869,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_run_star2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 31.8306,
+                  "Y": -103.3317
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1592,
+                  "Y": -0.5167
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 19.3306,
+                "RightMargin": 155.6694,
+                "TopMargin": 289.8317,
+                "BottomMargin": -116.8317,
+                "Tag": 68,
+                "ActionTag": -1113593677,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_run_star3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57.3457,
+                  "Y": -103.1362
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2867,
+                  "Y": -0.5157
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 44.8457,
+                "RightMargin": 130.1543,
+                "TopMargin": 289.6362,
+                "BottomMargin": -116.6362,
+                "Tag": 69,
+                "ActionTag": -1125988570,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_run_star4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.4168,
+                  "Y": -103.8276
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4121,
+                  "Y": -0.5191
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 69.9168,
+                "RightMargin": 105.0832,
+                "TopMargin": 290.3276,
+                "BottomMargin": -117.3276,
+                "Tag": 70,
+                "ActionTag": 551846391,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_run_star5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -18.4041,
+                  "Y": -140.8681
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.092,
+                  "Y": -0.7043
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -30.9041,
+                "RightMargin": 205.9041,
+                "TopMargin": 327.3681,
+                "BottomMargin": -154.3681,
+                "Tag": 71,
+                "ActionTag": -578082543,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_jump_star1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 7.1107,
+                  "Y": -141.1161
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0356,
+                  "Y": -0.7056
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": -5.3893,
+                "RightMargin": 180.3893,
+                "TopMargin": 327.6161,
+                "BottomMargin": -154.6161,
+                "Tag": 72,
+                "ActionTag": -1137033675,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_jump_star2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.6255,
+                  "Y": -140.9209
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1631,
+                  "Y": -0.7046
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 20.1255,
+                "RightMargin": 154.8745,
+                "TopMargin": 327.4209,
+                "BottomMargin": -154.4209,
+                "Tag": 73,
+                "ActionTag": -1780876201,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_jump_star3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 57.2536,
+                  "Y": -140.7253
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2863,
+                  "Y": -0.7036
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 44.7536,
+                "RightMargin": 130.2464,
+                "TopMargin": 327.2253,
+                "BottomMargin": -154.2253,
+                "Tag": 74,
+                "ActionTag": 1415670644,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_jump_star4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Common/_0094.png",
+                  "Plist": "PlistCommon.plist"
+                },
+                "Scale9Width": 25,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 82.3252,
+                  "Y": -140.9732
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4116,
+                  "Y": -0.7049
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 69.8252,
+                "RightMargin": 105.1748,
+                "TopMargin": 327.4732,
+                "BottomMargin": -154.4732,
+                "Tag": 75,
+                "ActionTag": -1234652608,
+                "Size": {
+                  "X": 25.0,
+                  "Y": 27.0
+                },
+                "Name": "Image_jump_star5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -91.9819,
+                  "Y": -0.1178
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.4599,
+                  "Y": -0.0006
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.8
+                },
+                "LeftMargin": -91.9819,
+                "RightMargin": 111.9819,
+                "TopMargin": 40.1178,
+                "BottomMargin": -0.1178,
+                "Tag": 153,
+                "ActionTag": 637524270,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 160.0
+                },
+                "Name": "Panel_touch",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Common/_0007.png",
+                  "Plist": ""
+                },
+                "Scale9Width": 186,
+                "Scale9Height": 86,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -2.1584,
+                  "Y": -186.6743
+                },
+                "Scale": {
+                  "ScaleX": 0.6158,
+                  "ScaleY": 0.5971
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0108,
+                  "Y": -0.9334
+                },
+                "PreSize": {
+                  "X": 0.93,
+                  "Y": 0.43
+                },
+                "LeftMargin": -95.1584,
+                "RightMargin": 109.1584,
+                "TopMargin": 343.6743,
+                "BottomMargin": -229.6743,
+                "Tag": 109,
+                "Children": [
+                  {
+                    "FontSize": 36,
+                    "LabelText": "1000",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "G": 127,
+                      "B": 80
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 129.1438,
+                      "Y": 45.125
+                    },
+                    "Scale": {
+                      "ScaleX": 1.2393,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6943,
+                      "Y": 0.5247
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "LeftMargin": 89.1438,
+                    "RightMargin": 16.8562,
+                    "TopMargin": 19.875,
+                    "BottomMargin": 24.125,
+                    "Tag": 110,
+                    "ActionTag": 2115423409,
+                    "Size": {
+                      "X": 80.0,
+                      "Y": 42.0
+                    },
+                    "Name": "Text_price",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 24637497,
+                "Size": {
+                  "X": 186.0,
+                  "Y": 86.0
+                },
+                "Name": "Image_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "生命",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/DFWaWaW5.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -70.0,
+                  "Y": -57.1168
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.35,
+                  "Y": -0.2856
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.16
+                },
+                "LeftMargin": -102.0,
+                "RightMargin": 238.0,
+                "TopMargin": 241.1168,
+                "BottomMargin": -73.1168,
+                "Tag": 217,
+                "ActionTag": -1201496500,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_life",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "奔跑",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/DFWaWaW5.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -70.0,
+                  "Y": -102.9515
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.35,
+                  "Y": -0.5148
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.16
+                },
+                "LeftMargin": -102.0,
+                "RightMargin": 238.0,
+                "TopMargin": 286.9515,
+                "BottomMargin": -118.9515,
+                "Tag": 218,
+                "ActionTag": -1874268370,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_speed",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 32,
+                "LabelText": "弹跳",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "Font/DFWaWaW5.TTF",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "G": 127,
+                  "B": 80
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -70.0,
+                  "Y": -141.1074
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.35,
+                  "Y": -0.7055
+                },
+                "PreSize": {
+                  "X": 0.32,
+                  "Y": 0.16
+                },
+                "LeftMargin": -102.0,
+                "RightMargin": 238.0,
+                "TopMargin": 325.1074,
+                "BottomMargin": -157.1074,
+                "Tag": 219,
+                "ActionTag": -1185081911,
+                "Size": {
+                  "X": 64.0,
+                  "Y": 32.0
+                },
+                "Name": "Text_jump",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 962562011,
+            "Size": {
+              "X": 200.0,
+              "Y": 200.0
+            },
+            "Name": "Panel_base",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Common/_0007.png",
+        "Common/_0093.png",
+        "Font/DFWaWaW5.TTF",
+        "PlistCommon.plist",
+        "PlistCommon.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Node"
+}
