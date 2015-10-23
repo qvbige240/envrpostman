@@ -1,6 +1,7 @@
 # Ignore thumbnails created by windows
 Thumbs.db
 *~
+*.apk
 
 # Ignore files build by Visual Studio
 *.obj

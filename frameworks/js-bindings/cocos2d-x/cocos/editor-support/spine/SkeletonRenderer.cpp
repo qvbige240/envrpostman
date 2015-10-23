@@ -39,6 +39,45 @@ using std::min;
 using std::max;
 
 namespace spine {
+    
+    class SpineCache
+    {
+    public:
+        static SpineCache* s_spineCacheInstance;
+        static SpineCache* getInstance();
+        spSkeletonData* getSpineData(const std::string& key);
+        void insertSpineData(const std::string& key, spSkeletonData* data);
+        
+    private:
+        std::map<std::string, spSkeletonData*> m_mapSkeletonData;
+    };
+    
+    SpineCache* SpineCache::s_spineCacheInstance = nullptr;
+    SpineCache* SpineCache::getInstance()
+    {
+        if (s_spineCacheInstance == nullptr)
+        {
+            s_spineCacheInstance = new SpineCache();
+        }
+        
+        return s_spineCacheInstance;
+    }
+    
+    spSkeletonData* SpineCache::getSpineData(const std::string& key)
+    {
+        std::map<std::string, spSkeletonData*>::const_iterator iter = m_mapSkeletonData.find(key);
+        if (iter != m_mapSkeletonData.end())
+        {
+            return iter->second;
+        }
+        
+        return nullptr;
+    }
+    
+    void SpineCache::insertSpineData(const std::string& key, spSkeletonData* data)
+    {
+        m_mapSkeletonData.insert(std::pair<std::string, spSkeletonData*>(key, data));
+    }
 
 static const int quadTriangles[6] = {0, 1, 2, 2, 3, 0};
 
@@ -125,6 +164,31 @@ void SkeletonRenderer::initWithFile (const std::string& skeletonDataFile, spAtla
 }
 
 void SkeletonRenderer::initWithFile (const std::string& skeletonDataFile, const std::string& atlasFile, float scale) {
+    spSkeletonData* _skeletonData = SpineCache::getInstance()->getSpineData(skeletonDataFile);
+    if (_skeletonData)
+    {
+        setSkeletonData(_skeletonData, false);
+        
+        initialize();
+    }
+    else
+    {
+        _atlas = spAtlas_createFromFile(atlasFile.c_str(), 0);
+        CCASSERT(_atlas, "Error reading atlas file.");
+        
+        spSkeletonJson* json = spSkeletonJson_create(_atlas);
+        json->scale = scale;
+        spSkeletonData* skeletonData = spSkeletonJson_readSkeletonDataFile(json, skeletonDataFile.c_str());
+        CCASSERT(skeletonData, json->error ? json->error : "Error reading skeleton data file.");
+        spSkeletonJson_dispose(json);
+        
+        setSkeletonData(skeletonData, false);
+        
+        initialize();
+        
+        SpineCache::getInstance()->insertSpineData(skeletonDataFile, skeletonData);
+    }
+    /*
     _atlas = spAtlas_createFromFile(atlasFile.c_str(), 0);
     CCASSERT(_atlas, "Error reading atlas file.");
     
@@ -137,6 +201,7 @@ void SkeletonRenderer::initWithFile (const std::string& skeletonDataFile, const 
     setSkeletonData(skeletonData, true);
     
     initialize();
+     */
 }
 
 void SkeletonRenderer::update (float deltaTime) {
