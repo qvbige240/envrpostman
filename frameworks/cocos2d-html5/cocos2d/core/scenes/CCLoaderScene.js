@@ -39,6 +39,7 @@ cc.LoaderScene = cc.Scene.extend({
      * @returns {boolean}
      */
     init : function(){
+        cc.log("init");
         var self = this;
 
         //logo
@@ -66,6 +67,7 @@ cc.LoaderScene = cc.Scene.extend({
         label.setPosition(cc.pAdd(cc.visibleRect.center, cc.p(0, lblHeight)));
         label.setColor(cc.color(180, 180, 180));
         bgLayer.addChild(this._label, 10);
+
         return true;
     },
 
@@ -119,7 +121,7 @@ cc.LoaderScene = cc.Scene.extend({
                 percent = Math.min(percent, 100);
                 self._label.setString("Loading... " + percent + "%");
             }, function () {
-                //加载音乐，PLIST等资源，用于html5平台
+                //鍔犺浇闊充箰锛孭LIST绛夎祫婧愶紝鐢ㄤ簬html5骞冲彴
                 preLoadResources();
                 if (self.cb)
                     self.cb();
@@ -144,6 +146,7 @@ cc.LoaderScene.preload = function(resources, cb){
         _cc.loaderScene = new cc.LoaderScene();
         _cc.loaderScene.init();
     }
+
     _cc.loaderScene.initWithResources(resources, cb);
 
     cc.director.runScene(_cc.loaderScene);

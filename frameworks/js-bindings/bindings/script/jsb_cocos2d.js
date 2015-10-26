@@ -1473,7 +1473,7 @@ cc.Loader = cc.Class.extend({
             this._target = target;
         }
 
-        //加载音乐，PLIST等资源，用于IOS,Android平台
+        //鍔犺浇闊充箰锛孭LIST绛夎祫婧愶紝鐢ㄤ簬IOS,Android骞冲彴
         preLoadResources();
         this._selector.call(this._target);
     }

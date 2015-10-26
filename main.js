@@ -60,6 +60,7 @@ cc.game.onStart = function(){
     // The game will be resized when browser size change
     cc.view.resizeWithBrowserSize(true);
     //load resources
+
     cc.LoaderScene.preload(g_resources, function () {
         if (cc.sys.isNative && cc.sys.OS_ANDROID == cc.sys.os) {
             //do nothing
@@ -75,8 +76,8 @@ cc.game.onStart = function(){
             }
             cc.log("languague:%s", lan);
 
-            //µ±with¡Ü024Ê±£¬Ê¹ÓÃÎÞ¼üÅÌ²Ù×÷µÄ½çÃæ£¨´¥ÆÁ½çÃæ£©£»
-            //µ±with£¾1024Ê±£¬Ê¹ÓÃ¼üÅÌ²Ù×÷µÄ½çÃæ
+            //å½“withâ‰¤024æ—¶ï¼Œä½¿ç”¨æ— é”®ç›˜æ“ä½œçš„ç•Œé¢ï¼ˆè§¦å±ç•Œé¢ï¼‰ï¼›
+            //å½“withï¼ž1024æ—¶ï¼Œä½¿ç”¨é”®ç›˜æ“ä½œçš„ç•Œé¢
             var frameSize = cc.director.getOpenGLView().getFrameSize();
             if (frameSize.width > 1024)
             {
