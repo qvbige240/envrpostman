@@ -85,6 +85,19 @@ extern "C" {
 #define KEYCODE_ENTER 0x42
 #define KEYCODE_PLAY  0x7e
 #define KEYCODE_DPAD_CENTER  0x17
+//add by qing
+#define KEYCODE_A 29
+#define KEYCODE_S 47
+#define KEYCODE_D 32
+#define KEYCODE_W 51
+#define KEYCODE_J 38
+#define KEYCODE_K 39
+#define KEYCODE_L 40
+#define KEYCODE_I 37
+#define KEYCODE_O 43
+#define KEYCODE_P 44
+#define KEYCODE_Z 54
+#define KEYCODE_X 52
     
     
     static std::unordered_map<int, cocos2d::EventKeyboard::KeyCode> g_keyCodeMap = {
@@ -97,6 +110,19 @@ extern "C" {
         { KEYCODE_ENTER  , cocos2d::EventKeyboard::KeyCode::KEY_ENTER},
         { KEYCODE_PLAY  , cocos2d::EventKeyboard::KeyCode::KEY_PLAY},
         { KEYCODE_DPAD_CENTER  , cocos2d::EventKeyboard::KeyCode::KEY_DPAD_CENTER},
+	//add by qing
+        { KEYCODE_A  , cocos2d::EventKeyboard::KeyCode::KEY_A},
+        { KEYCODE_S  , cocos2d::EventKeyboard::KeyCode::KEY_S},
+        { KEYCODE_D  , cocos2d::EventKeyboard::KeyCode::KEY_D},
+        { KEYCODE_W  , cocos2d::EventKeyboard::KeyCode::KEY_W},
+        { KEYCODE_J  , cocos2d::EventKeyboard::KeyCode::KEY_J},
+        { KEYCODE_K  , cocos2d::EventKeyboard::KeyCode::KEY_K},
+        { KEYCODE_L  , cocos2d::EventKeyboard::KeyCode::KEY_L},
+        { KEYCODE_I  , cocos2d::EventKeyboard::KeyCode::KEY_I},
+        { KEYCODE_O  , cocos2d::EventKeyboard::KeyCode::KEY_O},
+        { KEYCODE_P  , cocos2d::EventKeyboard::KeyCode::KEY_P},
+        { KEYCODE_Z  , cocos2d::EventKeyboard::KeyCode::KEY_Z},
+        { KEYCODE_X  , cocos2d::EventKeyboard::KeyCode::KEY_X},
         
     };
     
