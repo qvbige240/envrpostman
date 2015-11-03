@@ -38,7 +38,6 @@ var MainLayer = cc.Layer.extend({
     _invicibleEndTime:0,
     _success:false,
     _flagEnermy:null,//导致邮递员死亡的怪物或障碍物
-    _isSubtitleOpen:true,//弹幕开关
     _curPostmanLife:0,//当前生命值
     _reviveEnable:true,//原地复活是否可用
     _levelMode:0,//关卡模式，无尽和普通
@@ -153,6 +152,8 @@ var MainLayer = cc.Layer.extend({
         }
     },
     start: function () {
+        this._uiMain.enableKeyboard();
+
         //开始移动动作
         this._postman.playWalk();
 
@@ -215,12 +216,14 @@ var MainLayer = cc.Layer.extend({
     //重新开始
     reset: function () {
         this._uiMain.enableKeyboard();
+        this._uiMain.setRecordImgVisible(false);
         this.unschedule(this.addDeadSubTitle);
         this._postman.setDead(false);
         this.initPostman();
         this.initLastPassedLength();
         this.initTrees();
         this.initPostmanLife();
+
         this.removeAllMonster();
         this.removeNewRecordAnimation();
         this._speedRate = 1;
@@ -251,6 +254,7 @@ var MainLayer = cc.Layer.extend({
             this._flagEnermy = null;
         }
 
+        this._uiMain.setRecordImgVisible(false);
         this._postman.setDead(false);
         this._postman.playWalk();
         //this.removeNewRecordAnimation();
@@ -530,13 +534,13 @@ var MainLayer = cc.Layer.extend({
     },
     //弹幕
     addSubTitle: function (dt) {
-        if (this._isSubtitleOpen)
+        if (this.isSubtitleOpen())
         {
             this.showSubTitle(SubTitleType.runing, 30);
         }
     },
     addDeadSubTitle: function (dt) {
-        if (this._isSubtitleOpen) {
+        if (this.isSubtitleOpen()) {
             this.showSubTitle(SubTitleType.dead);
         }
     },
@@ -788,13 +792,13 @@ var MainLayer = cc.Layer.extend({
     },
     //弹幕开关
     closeSubtitle: function () {
-        this._isSubtitleOpen = false;
+        GlobalCommentSwitch = false;
     },
     openSubtitle: function () {
-        this._isSubtitleOpen = true;
+        GlobalCommentSwitch = true;
     },
     isSubtitleOpen: function () {
-        return this._isSubtitleOpen;
+        return GlobalCommentSwitch;
     },
     checkCollision: function (enermy) {
         var posX = enermy.getPositionX();
@@ -894,7 +898,7 @@ var MainLayer = cc.Layer.extend({
             enermy.setItemEnable(false);
             //var time4 = Date.now();
 
-            if (this._isSubtitleOpen)
+            if (this.isSubtitleOpen())
             {
                 //弹幕
                 this.showSubTitle(SubTitleType.gold, 50);
@@ -909,7 +913,7 @@ var MainLayer = cc.Layer.extend({
         }
         else if (enermy.getType() == ItemType.accelerator)
         {
-            if (this._isSubtitleOpen)
+            if (this.isSubtitleOpen())
             {
                 //弹幕
                 this.showSubTitle(SubTitleType.speedup, 50);
@@ -1249,10 +1253,7 @@ var MainLayer = cc.Layer.extend({
 
         this._uiMain.disableKeyboard();
         //显示失败界面
-        var uiFailed = new UIFail();
-        uiFailed.init();
-        uiFailed.setMainLayerDelegate(this);
-        cc.director.getRunningScene().addChild(uiFailed);
+        this.delayShowFailedUI();
     },
     onSuccess: function () {
         this.delaySetGold();
@@ -1270,10 +1271,27 @@ var MainLayer = cc.Layer.extend({
 
         this._uiMain.disableKeyboard();
         //显示成功界面
-        var uiSuccess = new UISuccess();
-        uiSuccess.init();
-        uiSuccess.setMainLayerDelegate(this);
-        cc.director.getRunningScene().addChild(uiSuccess);
+        this.delayShowSuccessUI();
+    },
+    delayShowSuccessUI: function () {
+        var delay = cc.DelayTime(1);
+        var callFunc = cc.callFunc(function (self) {
+            var uiSuccess = new UISuccess();
+            uiSuccess.init();
+            uiSuccess.setMainLayerDelegate(self);
+            cc.director.getRunningScene().addChild(uiSuccess);
+        });
+        this.runAction(cc.sequence(delay, callFunc));
+    },
+    delayShowFailedUI: function () {
+        var delay = cc.DelayTime(1);
+        var callFunc = cc.callFunc(function (self) {
+            var uiFailed = new UIFail();
+            uiFailed.init();
+            uiFailed.setMainLayerDelegate(self);
+            cc.director.getRunningScene().addChild(uiFailed);
+        });
+        this.runAction(cc.sequence(delay, callFunc));
     },
     showSubTitle: function (type, percent) {
         var localPercent = percent;

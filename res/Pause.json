@@ -330,7 +330,7 @@
                 },
                 "PressedFileData": {
                   "Type": "Normal",
-                  "Path": "Common/_0027a.png",
+                  "Path": "Common/_0027.png",
                   "Plist": ""
                 },
                 "NormalFileData": {
@@ -494,8 +494,8 @@
                   "Y": 0.0
                 },
                 "PreSize": {
-                  "X": 0.0,
-                  "Y": 0.0
+                  "X": 0.1563,
+                  "Y": 0.2778
                 },
                 "RightMargin": 1080.0,
                 "TopMargin": 520.0,

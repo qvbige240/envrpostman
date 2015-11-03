@@ -36,13 +36,9 @@ var UISuccess = cc.Node.extend({
     },
     onEnter: function () {
         this._super();
-        cc.log("UISuccess onenter");
-        //this.initKeyboardTouch();
     },
     onExit: function () {
         this._super();
-        cc.log("UISuccess onExit");
-        //cc.eventManager.removeListener(cc.EventListener.KEYBOARD)
     },
     initButtonName: function () {
         var btnName = InitData.getStringByKey("back");

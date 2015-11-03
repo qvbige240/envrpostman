@@ -58,12 +58,9 @@ var InvincibleTime = 5.0;
 var GlobalData = {};
 var PreSoundPath = "res/Sound/";
 var GlobalGold = 0;
+var GlobalCommentSwitch = true;
 
 var SkeletonCache = {};
-var AddGoldVal = 0;//充值金币数
-var IsDoubleGold = false;//是否双倍金币获得
-var IsRevive = false;//是否购买了复活
-var IsShareSuccess = false;//是否分享成功
 
 var IsChinese = true;
 var EnableKeyboard = false;

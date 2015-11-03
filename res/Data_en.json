@@ -206,6 +206,7 @@
 		"zhu"]
 	},
 	"map_1n": {
+	  "name":"Endless One",
 	  "mod":2,
 	  "next_level":"map_2n",
 	  "distance": 170,
@@ -241,6 +242,7 @@
 		"haig"]
 	},
 	"map_2n": {
+	  "name":"Endless Two",
 	  "mod":2,
 	  "next_level":"map_3n",
 	  "distance": 170,
@@ -276,6 +278,7 @@
 		"haig"]
 	},
 	"map_3n": {
+	  "name":"Endless There",
 	  "mod":2,
 	  "next_level":"map_4n",
 	  "distance": 170,
@@ -311,6 +314,7 @@
 		"haig"]
 	},
 	"map_4n": {
+	  "name":"Endless Four",
 	  "mod":2,
 	  "next_level":"map_5n",
 	  "distance": 170,
@@ -346,6 +350,7 @@
 		"haig"]
 	},
 	"map_5n": {
+	  "name":"Endless Five",
 	  "mod":2,
 	  "next_level":"map_6n",
 	  "distance": 170,
@@ -381,6 +386,7 @@
 		"haig"]
 	},
 	"map_6n": {
+	  "name":"Endless Six",
 	  "mod":2,
 	  "next_level":"",
 	  "distance": 170,

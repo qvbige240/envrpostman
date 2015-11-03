@@ -81,13 +81,13 @@ var UIMain = cc.Node.extend({
         var keyboardPanel = ccui.helper.seekWidgetByName(baseNode, "Panel_keyboard");
         keyboardPanel.setVisible(EnableKeyboard);
 
-        //this.schedule(this.refreshGoldText, 0.2);
+        //do it on mainScene.js
+        //this.enableKeyboard();
 
         return true;
     },
     onEnter: function () {
         this._super();
-        this.enableKeyboard();
     },
     onExit: function () {
         this._super();
@@ -164,6 +164,9 @@ var UIMain = cc.Node.extend({
     setCurDistance: function (length) {
         var name = InitData.getStringByKey("meter");
         this._distanceText.setString(name+":"+length);
+    },
+    setRecordImgVisible: function (bVisible) {
+        this._recordImg.setVisible(bVisible);
     },
     setRecordImgPositionX: function (posX) {
         this._recordImg.setVisible(true);

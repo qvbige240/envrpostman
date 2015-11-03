@@ -228,7 +228,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 302.8961,
+                  "X": 265.0,
                   "Y": 424.1613
                 },
                 "Scale": {
@@ -238,15 +238,15 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.2366,
+                  "X": 0.207,
                   "Y": 0.5891
                 },
                 "PreSize": {
                   "X": 0.0234,
                   "Y": 0.0556
                 },
-                "LeftMargin": 287.8961,
-                "RightMargin": 962.1039,
+                "LeftMargin": 250.0,
+                "RightMargin": 1000.0,
                 "TopMargin": 275.8387,
                 "BottomMargin": 404.1613,
                 "Tag": 142,
@@ -302,7 +302,7 @@
                   "ScaleY": 0.5
                 },
                 "Position": {
-                  "X": 1005.1403,
+                  "X": 1030.0,
                   "Y": 433.7012
                 },
                 "Scale": {
@@ -314,15 +314,15 @@
                 "CColor": {},
                 "IconVisible": false,
                 "PrePosition": {
-                  "X": 0.7853,
+                  "X": 0.8047,
                   "Y": 0.6024
                 },
                 "PreSize": {
                   "X": 0.0234,
                   "Y": 0.0556
                 },
-                "LeftMargin": 990.1403,
-                "RightMargin": 259.8597,
+                "LeftMargin": 1015.0,
+                "RightMargin": 235.0,
                 "TopMargin": 266.2988,
                 "BottomMargin": 413.7012,
                 "Tag": 143,
@@ -367,7 +367,7 @@
                   "Y": 0.4444
                 },
                 "PreSize": {
-                  "X": 0.1563,
+                  "X": 0.1562,
                   "Y": 0.5556
                 },
                 "RightMargin": 1080.0,

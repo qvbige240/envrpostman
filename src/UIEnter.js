@@ -33,8 +33,9 @@ var UIEnter = cc.Node.extend({
             GameStorage.setDefaultPostmanName("zhujue");
             GameStorage.enableHero("zhujue");
             GameStorage.openLevel("map_1");
-            //only for test
-            //GameStorage.setUserGold(1000);
+            //TODO:only for test
+            GameStorage.setUserGold(2000);
+            GlobalGold = 2000;
         }
 
         this.initButtonName();
@@ -56,16 +57,14 @@ var UIEnter = cc.Node.extend({
         //键盘操作
         var keyboardPanel = ccui.helper.seekWidgetByName(baseNode, "Panel_keyboard");
         keyboardPanel.setVisible(EnableKeyboard);
+        this.initKeyboardTouch();
 
         return true;
     },
     onEnter: function () {
         this._super();
-        cc.log("UIEnter onenter");
-        this.initKeyboardTouch();
     },
     onExit: function () {
-        cc.log("UIEnter onExit");
         this._super();
     },
     initButtonName: function () {
@@ -140,10 +139,30 @@ var UIEnter = cc.Node.extend({
     onTouchExitBtn: function (sender, type) {
         if (type == ccui.Widget.TOUCH_ENDED)
         {
+            this.disableKeyboardTouch();
             SoundManager.playButtonEffect();
 
-            cc.director.end();
+            var content = "";
+            if (IsChinese)
+            {
+                content = "确定要退出游戏？";
+            }
+            else
+            {
+                content = "Do you really want to quit the game?";
+            }
+            var msgBox = new MsgBox();
+            msgBox.setContent(content);
+            msgBox.setCloseEventListener(this, this.onCancleExit);
+            msgBox.setConfrimEventListener(this, this.onConfirmExit, null, null);
+            cc.director.getRunningScene().addChild(msgBox);
         }
+    },
+    onCancleExit: function () {
+        this.enableKeyboardTouch();
+    },
+    onConfirmExit: function () {
+        cc.director.end();
     },
     initKeyboardTouch: function () {
         var self = this;
@@ -205,6 +224,9 @@ var UIEnter = cc.Node.extend({
         }
     },
     enableKeyboardTouch: function () {
-        this.initKeyboardTouch();
+        if (this._listener == null)
+        {
+            this.initKeyboardTouch();
+        }
     }
 })

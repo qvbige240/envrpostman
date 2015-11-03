@@ -48,13 +48,9 @@ var UIPause = cc.Node.extend({
     },
     onEnter: function () {
         this._super();
-        cc.log("UIPause onenter");
-        //this.initKeyboardTouch();
     },
     onExit: function () {
         this._super();
-        cc.log("UIPause onExit");
-        //cc.eventManager.removeListener(cc.EventListener.KEYBOARD)
     },
     initButtonName: function () {
         var btnName = InitData.getStringByKey("back");
@@ -68,6 +64,19 @@ var UIPause = cc.Node.extend({
     },
     setMainLayerDelegate: function (delegate) {
         this._mainLayerDelegate = delegate;
+        this.checkSubTitleOpen();
+    },
+    checkSubTitleOpen: function () {
+        if (this._mainLayerDelegate.isSubtitleOpen())
+        {
+            var btnName = InitData.getStringByKey("commentOff");
+            this.subtitleText.setString(btnName);
+        }
+        else
+        {
+            var btnName = InitData.getStringByKey("commentOn");
+            this.subtitleText.setString(btnName);
+        }
     },
     onTouchSoundBtn: function (sender, type) {
         if (type == ccui.Widget.TOUCH_ENDED)
@@ -120,7 +129,7 @@ var UIPause = cc.Node.extend({
 
             if (this._mainLayerDelegate.isSubtitleOpen())
             {
-                sender.setHighlighted(true);
+                //sender.setHighlighted(true);
                 this._mainLayerDelegate.closeSubtitle();
 
                 var btnName = InitData.getStringByKey("commentOn");
@@ -128,7 +137,7 @@ var UIPause = cc.Node.extend({
             }
             else
             {
-                sender.setHighlighted(false);
+                //sender.setHighlighted(false);
                 this._mainLayerDelegate.openSubtitle();
 
                 var btnName = InitData.getStringByKey("commentOff");

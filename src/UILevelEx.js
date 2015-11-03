@@ -12,6 +12,7 @@ var UILevelEx = cc.Node.extend({
     _curLevelIdx:0,
     _selectImg:null,
     _listener:null,
+    _forLog:0,
     init: function () {
         if (!this._super())
         {
@@ -48,15 +49,13 @@ var UILevelEx = cc.Node.extend({
             this._confirmText.setString("OK");
         }
 
+        this.initKeyboardTouch();
         return true;
     },
     onEnter: function () {
         this._super();
-        cc.log("UILevelEx onenter");
-        this.initKeyboardTouch();
     },
     onExit: function () {
-        cc.log("UILevelEx onExit");
         this._super();
     },
     initPageview: function () {
@@ -327,7 +326,8 @@ var UILevelEx = cc.Node.extend({
                     }
                     else if (cc.KEY["j"] == key)
                     {
-                        //ShowMsgTips("UILevelEx onSelectLevel");
+                        //ShowMsgTips("UILevelEx onSelectLevel"+self._forLog);
+                        //self._forLog = self._forLog + 111111111;
                         self.onSelectLevel();
                     }
                 }

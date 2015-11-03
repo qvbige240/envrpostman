@@ -54,12 +54,9 @@ var UIPostmanEx = cc.Node.extend({
     },
     onEnter: function () {
         this._super();
-        cc.log("UIPostmanEx onenter");
     },
     onExit: function () {
         this._super();
-        cc.log("UIPostmanEx onExit");
-        //cc.eventManager.removeListener(cc.EventListener.KEYBOARD)
     },
     initButtonName: function () {
         var btnName = InitData.getStringByKey("back");
@@ -343,7 +340,8 @@ var UIPostmanEx = cc.Node.extend({
         //扣除金币
         var postmanJson = InitData.getPostmanJson(postmanName);
         var price = postmanJson["price"];
-        GameStorage.setUserGold(GlobalGold - price);
+        GlobalGold = GlobalGold - price
+        GameStorage.setUserGold(GlobalGold);
 
         //购买成功
         this.setVisible(true);
