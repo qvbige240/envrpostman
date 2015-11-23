@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyvalues>  
+<key eurowing="21" game="29" /> <!-- LEFT -->
+<key eurowing="22" game="32" /> <!-- RIGHT -->
+<key eurowing="19" game="51" /> <!-- UP -->
+<key eurowing="20" game="47" /> <!-- DOWN -->
+<key eurowing="96" game="37" /> <!-- A -->
+<key eurowing="97" game="39" /> <!-- B -->
+<key eurowing="99" game="40" /> <!-- X -->
+<key eurowing="100" game="38" /> <!-- Y -->
+</keyvalues>  

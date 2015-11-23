@@ -290,7 +290,9 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
 
     @Override
     public boolean onKeyDown(final int pKeyCode, final KeyEvent pKeyEvent) {
-        switch (pKeyCode) {
+	Integer key = GameAppConfig.mHashMap.get(pKeyCode);
+	final int kc = key;
+        switch (kc) {
             case KeyEvent.KEYCODE_BACK:
                 Cocos2dxVideoHelper.mVideoHandler.sendEmptyMessage(Cocos2dxVideoHelper.KeyEventBack);
             case KeyEvent.KEYCODE_MENU:
@@ -316,7 +318,7 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
                 this.queueEvent(new Runnable() {
                     @Override
                     public void run() {
-                        Cocos2dxGLSurfaceView.this.mCocos2dxRenderer.handleKeyDown(pKeyCode);
+                        Cocos2dxGLSurfaceView.this.mCocos2dxRenderer.handleKeyDown(kc);
                     }
                 });
                 return true;
@@ -327,7 +329,9 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
 
     @Override
     public boolean onKeyUp(final int pKeyCode, final KeyEvent pKeyEvent) {
-        switch (pKeyCode) {
+	Integer key = GameAppConfig.mHashMap.get(pKeyCode);
+	final int kc = key;
+        switch (kc) {
             case KeyEvent.KEYCODE_BACK:
                 Cocos2dxVideoHelper.mVideoHandler.sendEmptyMessage(Cocos2dxVideoHelper.KeyEventBack);
             case KeyEvent.KEYCODE_MENU:
@@ -353,7 +357,7 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
                 this.queueEvent(new Runnable() {
                     @Override
                     public void run() {
-                        Cocos2dxGLSurfaceView.this.mCocos2dxRenderer.handleKeyUp(pKeyCode);
+                        Cocos2dxGLSurfaceView.this.mCocos2dxRenderer.handleKeyUp(kc);
                     }
                 });
                 return true;

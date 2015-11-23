@@ -33,6 +33,19 @@ import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
 
 import android.util.Log;
 
+import java.io.IOException;
+import java.util.HashMap;
+
+//import org.cocos2dx.lib.Cocos2dxActivity;
+import org.cocos2dx.lib.Cocos2dxEditText;
+//import org.cocos2dx.lib.Cocos2dxGLSurfaceView;
+import org.cocos2dx.lib.GameAppConfig;
+import org.xmlpull.v1.XmlPullParserException;
+
+import android.content.res.Resources;
+import android.content.res.XmlResourceParser;
+import android.os.Bundle;
+
 public class AppActivity extends Cocos2dxActivity {
 	
     @Override
@@ -41,9 +54,45 @@ public class AppActivity extends Cocos2dxActivity {
         // TestCpp should create stencil buffer
         glSurfaceView.setEGLConfigChooser(5, 6, 5, 0, 16, 8);
 
+		GameAppConfig.mHashMap = parserKeyValueXML(this, org.cocos2dx.envrpostman.R.xml.keymap);
+
         return glSurfaceView;
     }
-    
+
+	// Key value XML parser
+	public static HashMap<Integer, Integer> parserKeyValueXML(AppActivity activity, int xmlID) {
+		Resources res = activity.getResources();
+		XmlResourceParser xmlParser = res.getXml(xmlID);
+		HashMap<Integer, Integer> mMap = new HashMap<Integer, Integer>();
+
+		try {
+			int eventType = xmlParser.getEventType();
+		     // File end?
+			while (eventType != XmlResourceParser.END_DOCUMENT) {
+				if (eventType == XmlResourceParser.START_TAG) {
+					String tagname = xmlParser.getName();
+					if (tagname.endsWith("key")) {
+						//Log.v("====Error", xmlParser.getAttributeValue(null, "eurowing") + " ####  " + xmlParser.getAttributeValue(null, "game"));
+						mMap.put(
+							Integer.parseInt(xmlParser.getAttributeValue(null, "eurowing")), //eurowing actual key value
+							Integer.parseInt(xmlParser.getAttributeValue(null, "game")));    //mapping game needs key value
+	 				}
+				} else if (eventType == XmlResourceParser.END_TAG) {
+
+				} else if (eventType == XmlResourceParser.TEXT) {
+
+				}
+				eventType = xmlParser.next();
+			}
+		} catch (XmlPullParserException e) {
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		xmlParser.close();
+		return mMap;
+	}
+
     public static String getLanguage()
     {
     	String lan = Locale.getDefault().getLanguage();
