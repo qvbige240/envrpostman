@@ -154,7 +154,7 @@
         <!-- <copy file="${auto.project.tmp.dir}/${out.dir}/${ant.project.name}-${build.last.target}.apk" tofile="${out.absolute.dir}/${auto.package}-${auto.final.versionName}-${auto.umeng.channel}-${build.last.target}.apk" overwrite="true">
         </copy> -->
         
-        <copy file="${auto.project.tmp.dir}/${out.dir}/${ant.project.name}-${build.last.target}.apk" tofile="${out.absolute.dir}/${auto.package}-${auto.final.versionName}.apk" overwrite="true">
+        <copy file="${auto.project.tmp.dir}/${out.dir}/${ant.project.name}-${build.last.target}.apk" tofile="${out.absolute.dir}/${auto.package}.${auto.final.versionName}.apk" overwrite="true">
         </copy>
     </target>
 

@@ -4,6 +4,11 @@ Thumbs.db
 *.apk
 *tmp
 *bak
+*swp
+auto.prop
+*.log
+log.txt
+._.*
 
 # Ignore files build by Visual Studio
 *.obj
