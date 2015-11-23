@@ -33,9 +33,8 @@ var UIEnter = cc.Node.extend({
             GameStorage.setDefaultPostmanName("zhujue");
             GameStorage.enableHero("zhujue");
             GameStorage.openLevel("map_1");
-            //TODO:only for test
-            GameStorage.setUserGold(2000);
-            GlobalGold = 2000;
+            //GameStorage.setUserGold(2000);
+            //GlobalGold = 2000;
         }
 
         this.initButtonName();

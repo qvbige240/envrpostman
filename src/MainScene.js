@@ -1241,7 +1241,7 @@ var MainLayer = cc.Layer.extend({
         this.runAction(cc.sequence(delay, callFunc));
     },
     onFailed: function () {
-        this.delaySetGold();
+
         //弹幕,间隔2S
         this.addDeadSubTitle();
         this.schedule(this.addDeadSubTitle, 2);
@@ -1256,7 +1256,7 @@ var MainLayer = cc.Layer.extend({
         this.delayShowFailedUI();
     },
     onSuccess: function () {
-        this.delaySetGold();
+
         this._success = true;
         SoundManager.closeBgm();
         SoundManager.playWinEffect();
@@ -1276,6 +1276,8 @@ var MainLayer = cc.Layer.extend({
     delayShowSuccessUI: function () {
         var delay = cc.DelayTime(1);
         var callFunc = cc.callFunc(function (self) {
+            self.delaySetGold();
+
             var uiSuccess = new UISuccess();
             uiSuccess.init();
             uiSuccess.setMainLayerDelegate(self);
@@ -1286,6 +1288,8 @@ var MainLayer = cc.Layer.extend({
     delayShowFailedUI: function () {
         var delay = cc.DelayTime(1);
         var callFunc = cc.callFunc(function (self) {
+            self.delaySetGold();
+
             var uiFailed = new UIFail();
             uiFailed.init();
             uiFailed.setMainLayerDelegate(self);

@@ -19,9 +19,7 @@ var GameStorage = {
         var key = "Open_" + levelName;
         var value = LocalStorage.get(key);
 
-        //TODO:only for test
-        return true;
-        //return (value == 1)?true:false;
+        return (value == 1)?true:false;
     },
     setLevelPassedLength: function (levelName, length) {
         var key = "Length_" + levelName;
