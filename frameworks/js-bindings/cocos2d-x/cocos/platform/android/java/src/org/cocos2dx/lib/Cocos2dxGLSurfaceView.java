@@ -23,6 +23,8 @@ THE SOFTWARE.
  ****************************************************************************/
 package org.cocos2dx.lib;
 
+import org.cocos2dx.lib.GameAppConfig;
+
 import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.os.Handler;
@@ -290,8 +292,13 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
 
     @Override
     public boolean onKeyDown(final int pKeyCode, final KeyEvent pKeyEvent) {
-	Integer key = GameAppConfig.mHashMap.get(pKeyCode);
-	final int kc = key;
+
+	//Log.d("====onKeyDown KeyCode is", Integer.toString(pKeyCode));
+	    Integer key = GameAppConfig.mHashMap.get(pKeyCode);
+	    if (key == null)
+	        key = pKeyCode;
+
+	    final int kc = key;
         switch (kc) {
             case KeyEvent.KEYCODE_BACK:
                 Cocos2dxVideoHelper.mVideoHandler.sendEmptyMessage(Cocos2dxVideoHelper.KeyEventBack);
@@ -329,8 +336,10 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
 
     @Override
     public boolean onKeyUp(final int pKeyCode, final KeyEvent pKeyEvent) {
-	Integer key = GameAppConfig.mHashMap.get(pKeyCode);
-	final int kc = key;
+	    Integer key = GameAppConfig.mHashMap.get(pKeyCode);
+	    if (key == null)
+	        key = pKeyCode;
+	    final int kc = key;
         switch (kc) {
             case KeyEvent.KEYCODE_BACK:
                 Cocos2dxVideoHelper.mVideoHandler.sendEmptyMessage(Cocos2dxVideoHelper.KeyEventBack);

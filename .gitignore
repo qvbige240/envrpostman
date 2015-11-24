@@ -9,6 +9,7 @@ auto.prop
 *.log
 log.txt
 ._.*
+.ant-targets-build.xml
 
 # Ignore files build by Visual Studio
 *.obj
