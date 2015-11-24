@@ -141,7 +141,78 @@ var LoadingScene = cc.Scene.extend({
     ctor: function () {
         this._super();
 
-        var visibleSize = cc.director.getVisibleSize();
+
+
+        //start add by duz on 2015.11.24 for add loadingScene
+        var animation = cc.Animation.create();
+        console.log("duzhong");
+        var self = this;
+        //解析Json文件
+        cc.loader.loadTxt("res/loadingConfig.json", function(a, fileContent){
+            console.log(fileContent);
+            var jsonData = JSON.parse(fileContent);
+            var data = jsonData["loadingList"];
+            if (data) {
+                var len = data.length;
+                for (var i = 0; i < len; i++) {
+                    //文件名
+                    var fileName = data[i];
+                    animation.addSpriteFrameWithFile(fileName);
+                    console.log(fileName);
+                }
+            }
+            animation.setDelayPerUnit(0.15);           //设置两个帧播放时间
+            animation.setRestoreOriginalFrame(true);    //动画执行后还原初始状态
+            //创建动作
+            var action = cc.animate(animation);
+            data = jsonData["loadingBg"];
+            console.log(data);
+            //取得x,y坐标
+            var x = jsonData["PositionX"];
+            var y = jsonData["PositionY"];
+
+            //背景精灵
+            var bg = new cc.Sprite(data);
+            bg.attr({
+                anchorX : 0.5,
+                anchorY : 0.5,
+                x : cc.winSize.width/2,
+                y : cc.winSize.height/2
+            });
+            //因为游戏分辨率跟资源不一致
+            var sclX = cc.winSize.width*1.0 / 1024;
+            var sclY = cc.winSize.height*1.0 / 600;
+            //console.log("sclx:"+sclX);
+            //console.log("scly:"+sclY);
+            //缩放
+            bg.scaleX = sclX;
+            bg.scaleY = sclY;
+
+            self.addChild(bg);
+            //loading 精灵
+            var loading = new cc.Sprite();
+            loading.attr({
+                anchorX : 0.5,
+                anchorY : 0.5,
+                x : parseFloat(x),
+                y : parseFloat(y)
+            });
+            console.log("width:" + cc.winSize.width );
+            console.log("height:" + cc.winSize.height );
+            self.scheduleOnce(function(){
+                loadResources();
+                //cc.director.replaceScene(new MainScene());
+                cc.director.runScene(new MainScene());
+            }, 2);
+            self.addChild(loading);
+            //运行动画
+            loading.runAction(cc.repeatForever(action));
+        });
+        //end
+
+
+	/*
+	   var visibleSize = cc.director.getVisibleSize();
         var loadingImg = new ccui.ImageView("res/loading.png");
         loadingImg.ignoreContentAdaptWithSize(false);
         loadingImg.setContentSize(visibleSize);
@@ -154,6 +225,7 @@ var LoadingScene = cc.Scene.extend({
             cc.director.replaceScene(new MainScene());
         });
         this.runAction(cc.sequence(delayTime, callFunc));
+	*/
     },
 });
 
