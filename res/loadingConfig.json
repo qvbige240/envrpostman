@@ -1,0 +1,10 @@
+{
+  "PositionX" : "790",
+  "PositionY" : "159",
+  "loadingBg" : "res/loading/loading_bg.png",
+  "loadingList" : [
+    "res/loading/loading_1.png",
+    "res/loading/loading_2.png",
+    "res/loading/loading_3.png"
+  ]
+}
